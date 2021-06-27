@@ -1,0 +1,19 @@
+[00:06:38]: [Join Announcement] Shenyeh815
+[00:07:10]: [Leave Announcement] Shenyeh815
+[00:08:04]: [Join Announcement] wayne930242
+[00:09:22]: [Join Announcement] Ayang
+[00:10:05]: [Join Announcement] Shenyeh815
+[00:10:37]: [Skin Announcement] Ayang shovel_victorian
+[00:28:56]: [Leave Announcement] Ayang
+[00:52:22]: [Join Announcement] Ayang
+[00:53:06]: [Skin Announcement] Shenyeh815 feet_ankleboot_grey_dark
+[01:12:47]: [Leave Announcement] Ayang
+[01:26:18]: [Skin Announcement] wayne930242 feet_waxwell_gladiator
+[01:45:43]: [Leave Announcement] Shenyeh815
+[01:51:55]: [Leave Announcement] wayne930242
+[05:23:11]: [Join Announcement] Shenyeh815
+[05:23:22]: [Join Announcement] wayne930242
+[05:57:23]: [Skin Announcement] Shenyeh815 legs_swing_pants_pink_raspberry
+[06:19:56]: [Skin Announcement] wayne930242 legs_warly_rose
+[06:39:05]: [Leave Announcement] Shenyeh815
+[06:39:05]: [Leave Announcement] wayne930242

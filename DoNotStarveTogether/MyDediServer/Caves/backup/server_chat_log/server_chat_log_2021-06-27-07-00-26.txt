@@ -1,0 +1,59 @@
+[00:02:45]: [Join Announcement] Shenyeh815
+[00:02:52]: [Join Announcement] wayne930242
+[00:28:22]: [Leave Announcement] wayne930242
+[00:29:16]: [Join Announcement] wayne930242
+[00:43:09]: [Skin Announcement] Shenyeh815 wormhole_spider
+[01:09:56]: [Join Announcement] Ayang
+[01:12:27]: [Leave Announcement] Ayang
+[01:14:17]: [Join Announcement] Ayang
+[01:21:17]: [Leave Announcement] Ayang
+[01:22:39]: [Join Announcement] Ayang
+[01:22:55]: [Leave Announcement] Ayang
+[01:24:57]: [Join Announcement] Ayang
+[01:25:08]: [Vote Announcement] rollback passed
+[01:33:09]: [Skin Announcement] wayne930242 body_sleepgown_purple_lavender
+[01:55:22]: [Join Announcement] summerland1928
+[01:57:54]: [Skin Announcement] Shenyeh815 body_tshirt_orange_pumpkin
+[02:01:05]: [Death Announcement] summerland1928 was killed by Frog. He became a spooky ghost!
+[02:01:10]: [Leave Announcement] Ayang
+[02:01:11]: [Leave Announcement] summerland1928
+[02:01:59]: [Vote Announcement] rollback passed
+[02:03:18]: [Join Announcement] summerland1928
+[02:04:08]: [Join Announcement] Ayang
+[02:07:54]: [Death Announcement] wayne930242 was killed by Grumble Bee. He became a spooky ghost!
+[02:08:32]: [Resurrect Announcement] wayne930242 was resurrected by Life Giving Amulet.
+[02:28:59]: [Skin Announcement] Ayang body_polo_orange_salmon
+[02:35:25]: [Death Announcement] wayne930242 was killed by Crawling Horror. He became a spooky ghost!
+[02:35:48]: [Resurrect Announcement] wayne930242 was resurrected by Life Giving Amulet.
+[02:50:27]: [Leave Announcement] summerland1928
+[02:51:25]: [Join Announcement] summerland1928
+[02:53:08]: [Skin Announcement] Shenyeh815 legs_tweed_knickerbocker_green_hunters
+[02:53:17]: [Leave Announcement] summerland1928
+[02:54:13]: [Join Announcement] summerland1928
+[02:54:59]: [Leave Announcement] summerland1928
+[02:59:01]: [Join Announcement] summerland1928
+[03:03:17]: [Skin Announcement] summerland1928 body_buttons_green_laurel
+[03:09:29]: [Death Announcement] summerland1928 was killed by Blue Hound. He became a spooky ghost!
+[03:10:06]: [Vote Announcement] rollback passed
+[03:12:49]: [Leave Announcement] Ayang
+[03:12:52]: [Leave Announcement] Shenyeh815
+[03:14:58]: [Join Announcement] Shenyeh815
+[03:15:52]: [Join Announcement] Ayang
+[03:17:40]: [Skin Announcement] wayne930242 legs_checkered_pleats_green_laurel
+[03:33:12]: [Leave Announcement] Ayang
+[03:37:56]: [Join Announcement] Ayang
+[03:55:25]: [Skin Announcement] Ayang legs_shorts_red_firehound
+[03:56:46]: [Leave Announcement] wayne930242
+[03:59:01]: [Join Announcement] wayne930242
+[04:19:07]: [Skin Announcement] summerland1928 legs_skirt_basic_black_scribble
+[04:40:10]: [Leave Announcement] Shenyeh815
+[04:40:11]: [Leave Announcement] Ayang
+[04:40:11]: [Leave Announcement] summerland1928
+[04:43:09]: [Join Announcement] Shenyeh815
+[04:43:29]: [Join Announcement] Ayang
+[04:43:54]: [Join Announcement] summerland1928
+[04:48:30]: [Leave Announcement] summerland1928
+[04:49:25]: [Leave Announcement] Ayang
+[04:53:48]: [Skin Announcement] wayne930242 feet_wx78_yule
+[05:01:44]: [Leave Announcement] Shenyeh815
+[05:02:04]: [Leave Announcement] wayne930242
