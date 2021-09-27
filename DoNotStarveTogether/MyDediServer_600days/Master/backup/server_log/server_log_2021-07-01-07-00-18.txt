@@ -1,0 +1,1650 @@
+[00:00:00]: PersistRootStorage is now /home/weihung/.klei//DoNotStarveTogether/MyDediServer/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 469426
+[00:00:00]: Current time: Wed Jun 30 07:00:26 2021
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: vultr.guest
+[00:00:00]: Release(Kernel) Version: 4.15.0-132-generic
+[00:00:00]: Kernel Build Timestamp: #136-Ubuntu SMP Tue Jan 12 14:58:42 UTC 2021
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 469426 LINUX
+[00:00:00]: Build Date: 7025
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4136037184)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:3.55
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (4066376512)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=60(0), D=0
+[00:00:01]: OnLoadPermissionList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Success)
+[00:00:01]: OnLoadUserIdList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:01]: Token retrieved from: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:01]: Token retrieved from: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:01]: THREAD - started 'StreamInput' (4064275264)
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: SUCCESS: Loaded modoverrides.lua	
+[00:00:01]: modoverrides.lua enabling workshop-1207269058	
+[00:00:01]: modoverrides.lua enabling workshop-2477889104	
+[00:00:01]: modoverrides.lua enabling workshop-1111658995	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
+[00:00:01]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:01]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-2477889104_CLIENT	
+[00:00:01]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.1.0	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:01]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering Server mod namespace "workshop-1207269058"
+[00:00:02]: Registering Server mod namespace "workshop-1111658995"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: bloom_enabled	true	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:03]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:03]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[00:00:03]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:03]: 	Load FE	
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (4040207168)
+[00:00:04]: FilesExistAsyncThread started (17827 files)...
+[00:00:04]: 	Load FE: done	
+[00:00:04]: Check for write access: TRUE
+[00:00:04]: Check for read access: TRUE
+[00:00:04]: Available disk space for save files: 109154 MB
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[00:00:05]: Starting Dedicated Server Game	
+[00:00:05]: Network tick rate: U=60(0), D=0
+[00:00:05]: About to start a server with the following settings:
+[00:00:05]:   Dedicated: true
+[00:00:05]:   Online: true
+[00:00:05]:   Passworded: true
+[00:00:05]:   ServerPort: 10999
+[00:00:05]:   SteamAuthPort: 12345
+[00:00:05]:   SteamMasterServerPort: 12346
+[00:00:05]:   ClanID: false
+[00:00:05]:   ClanOnly: false
+[00:00:05]:   ClanAdmin: false
+[00:00:05]:   LanOnly: false
+[00:00:05]:   FriendsOnly: false
+[00:00:05]:   EnableAutosaver: true
+[00:00:05]:   EncodeUserPath: true
+[00:00:05]:   PVP: false
+[00:00:05]:   MaxPlayers: 8
+[00:00:05]:   GameMode: survival
+[00:00:05]:   OverridenDNS: 
+[00:00:05]:   PauseWhenEmpty: true
+[00:00:05]:   IdleTimeout: 1800s
+[00:00:05]:   VoteEnabled: true
+[00:00:05]:   InternetBroadcasting: true
+[00:00:05]:   Intent: cooperative
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:05]: Online Server Started on port: 10999
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: Found a level data override file with these contents:	
+[00:00:05]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:00:05]: 	K: 	hideminimap	 V: 	false	
+[00:00:05]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:05]: 	K: 	location	 V: 	forest	
+[00:00:05]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:05]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:05]: 	K: 	name	 V: 	Standard Forest	
+[00:00:05]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:05]: 	K: 	override_level_string	 V: 	false	
+[00:00:05]: 	K: 	overrides	 V: 	table: 0xefaea70	
+[00:00:05]: 		K: 	alternatehunt	 V: 	default	
+[00:00:05]: 		K: 	angrybees	 V: 	default	
+[00:00:05]: 		K: 	antliontribute	 V: 	default	
+[00:00:05]: 		K: 	autumn	 V: 	default	
+[00:00:05]: 		K: 	bearger	 V: 	default	
+[00:00:05]: 		K: 	beefalo	 V: 	default	
+[00:00:05]: 		K: 	beefaloheat	 V: 	default	
+[00:00:05]: 		K: 	bees	 V: 	default	
+[00:00:05]: 		K: 	berrybush	 V: 	default	
+[00:00:05]: 		K: 	birds	 V: 	default	
+[00:00:05]: 		K: 	boons	 V: 	default	
+[00:00:05]: 		K: 	branching	 V: 	default	
+[00:00:05]: 		K: 	butterfly	 V: 	default	
+[00:00:05]: 		K: 	buzzard	 V: 	default	
+[00:00:05]: 		K: 	cactus	 V: 	default	
+[00:00:05]: 		K: 	carrot	 V: 	default	
+[00:00:05]: 		K: 	catcoon	 V: 	default	
+[00:00:05]: 		K: 	chess	 V: 	default	
+[00:00:05]: 		K: 	day	 V: 	default	
+[00:00:05]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:05]: 		K: 	deerclops	 V: 	default	
+[00:00:05]: 		K: 	disease_delay	 V: 	default	
+[00:00:05]: 		K: 	dragonfly	 V: 	default	
+[00:00:05]: 		K: 	flint	 V: 	default	
+[00:00:05]: 		K: 	flowers	 V: 	default	
+[00:00:05]: 		K: 	frograin	 V: 	default	
+[00:00:05]: 		K: 	goosemoose	 V: 	default	
+[00:00:05]: 		K: 	grass	 V: 	default	
+[00:00:05]: 		K: 	has_ocean	 V: 	true	
+[00:00:05]: 		K: 	houndmound	 V: 	default	
+[00:00:05]: 		K: 	hounds	 V: 	default	
+[00:00:05]: 		K: 	hunt	 V: 	default	
+[00:00:05]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:05]: 		K: 	krampus	 V: 	default	
+[00:00:05]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:05]: 		K: 	liefs	 V: 	default	
+[00:00:05]: 		K: 	lightning	 V: 	default	
+[00:00:05]: 		K: 	lightninggoat	 V: 	default	
+[00:00:05]: 		K: 	loop	 V: 	default	
+[00:00:05]: 		K: 	lureplants	 V: 	default	
+[00:00:05]: 		K: 	marshbush	 V: 	default	
+[00:00:05]: 		K: 	merm	 V: 	default	
+[00:00:05]: 		K: 	meteorshowers	 V: 	default	
+[00:00:05]: 		K: 	meteorspawner	 V: 	default	
+[00:00:05]: 		K: 	moles	 V: 	default	
+[00:00:05]: 		K: 	mushroom	 V: 	default	
+[00:00:05]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:05]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:05]: 		K: 	penguins	 V: 	default	
+[00:00:05]: 		K: 	perd	 V: 	default	
+[00:00:05]: 		K: 	petrification	 V: 	default	
+[00:00:05]: 		K: 	pigs	 V: 	default	
+[00:00:05]: 		K: 	ponds	 V: 	default	
+[00:00:05]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:05]: 		K: 	rabbits	 V: 	default	
+[00:00:05]: 		K: 	reeds	 V: 	default	
+[00:00:05]: 		K: 	regrowth	 V: 	default	
+[00:00:05]: 		K: 	roads	 V: 	default	
+[00:00:05]: 		K: 	rock	 V: 	default	
+[00:00:05]: 		K: 	rock_ice	 V: 	default	
+[00:00:05]: 		K: 	sapling	 V: 	default	
+[00:00:05]: 		K: 	season_start	 V: 	default	
+[00:00:05]: 		K: 	specialevent	 V: 	default	
+[00:00:05]: 		K: 	spiders	 V: 	default	
+[00:00:05]: 		K: 	spring	 V: 	default	
+[00:00:05]: 		K: 	start_location	 V: 	default	
+[00:00:05]: 		K: 	summer	 V: 	default	
+[00:00:05]: 		K: 	tallbirds	 V: 	default	
+[00:00:05]: 		K: 	task_set	 V: 	default	
+[00:00:05]: 		K: 	tentacles	 V: 	default	
+[00:00:05]: 		K: 	touchstone	 V: 	default	
+[00:00:05]: 		K: 	trees	 V: 	default	
+[00:00:05]: 		K: 	tumbleweed	 V: 	default	
+[00:00:05]: 		K: 	walrus	 V: 	default	
+[00:00:05]: 		K: 	weather	 V: 	default	
+[00:00:05]: 		K: 	wildfires	 V: 	default	
+[00:00:05]: 		K: 	winter	 V: 	default	
+[00:00:05]: 		K: 	world_size	 V: 	default	
+[00:00:05]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:05]: 	K: 	random_set_pieces	 V: 	table: 0xefa1d70	
+[00:00:05]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:05]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:05]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:05]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:05]: 		K: 	5	 V: 	Chessy_1	
+[00:00:05]: 		K: 	6	 V: 	Chessy_2	
+[00:00:05]: 		K: 	7	 V: 	Chessy_3	
+[00:00:05]: 		K: 	8	 V: 	Chessy_4	
+[00:00:05]: 		K: 	9	 V: 	Chessy_5	
+[00:00:05]: 		K: 	10	 V: 	Chessy_6	
+[00:00:05]: 		K: 	11	 V: 	Maxwell1	
+[00:00:05]: 		K: 	12	 V: 	Maxwell2	
+[00:00:05]: 		K: 	13	 V: 	Maxwell3	
+[00:00:05]: 		K: 	14	 V: 	Maxwell4	
+[00:00:05]: 		K: 	15	 V: 	Maxwell6	
+[00:00:05]: 		K: 	16	 V: 	Maxwell7	
+[00:00:05]: 		K: 	17	 V: 	Warzone_1	
+[00:00:05]: 		K: 	18	 V: 	Warzone_2	
+[00:00:05]: 		K: 	19	 V: 	Warzone_3	
+[00:00:05]: 	K: 	required_prefabs	 V: 	table: 0xefbeb00	
+[00:00:05]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:05]: 	K: 	required_setpieces	 V: 	table: 0xefbe970	
+[00:00:05]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:05]: 		K: 	2	 V: 	Maxwell5	
+[00:00:05]: 	K: 	substitutes	 V: 	table: 0xefbd0b0	
+[00:00:05]: 	K: 	version	 V: 	4	
+[00:00:05]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:05]: Overwriting savedata with level data file.	
+[00:00:05]: Not applying world gen overrides.	
+[00:00:05]: Collecting garbage...
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: lua_gc took 0.06 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~cEventLeaderboardProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: lua_close took 0.07 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:05]:   taskgrouplist:	default	Together	
+[00:00:05]:   taskgrouplist:	classic	Classic	
+[00:00:05]:   taskgrouplist:	cave_default	Underground	
+[00:00:05]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:05]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:05]: running main.lua
+	
+[00:00:05]: loaded modindex	
+[00:00:05]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: modoverrides.lua enabling workshop-1207269058	
+[00:00:05]: modoverrides.lua enabling workshop-2477889104	
+[00:00:05]: modoverrides.lua enabling workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:05]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:05]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:05]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.1.0	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:05]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: Registering Server mod namespace "workshop-1207269058"
+[00:00:05]: Registering Server mod namespace "workshop-1111658995"
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Loading world: session/84FECDB5A7FE0E46/0000000308	
+[00:00:05]: Save file is at version 5.065	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:05]: 	Unload FE	
+[00:00:05]: 	Unload FE done	
+[00:00:06]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:06]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[00:00:06]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:06]: 	LOAD BE	
+[00:00:09]: Could not preload undefined prefab (alterguardian_spiketrail_fx)
+[00:00:10]: Could not preload undefined prefab (bedazzler_buff)
+[00:00:11]: 	LOAD BE: done	
+[00:00:11]: Begin Session: 84FECDB5A7FE0E46
+[00:00:11]: saving to server_temp/server_save	
+[00:00:11]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:11]: Loading 17 new character(s)	
+[00:00:12]: Total 17 character(s) loaded	
+[00:00:13]: Loading Nav Grid	
+[00:00:13]: World generated on build 466644 with save version: 5.065, using seed: 1622907743	
+[00:00:13]: setting 	summerlength	15	
+[00:00:13]: setting 	cavemoonphase	half	
+[00:00:13]: setting 	iscavefullmoon	false	
+[00:00:13]: setting 	isnightmaredawn	false	
+[00:00:13]: setting 	elapseddaysinseason	6	
+[00:00:13]: setting 	isfullmoon	false	
+[00:00:13]: setting 	moisture	6582.2075195312	
+[00:00:13]: setting 	cavephase	day	
+[00:00:13]: setting 	iscavewaxingmoon	true	
+[00:00:13]: setting 	isnightmarewild	false	
+[00:00:13]: setting 	nightmaretimeinphase	0	
+[00:00:13]: setting 	precipitationrate	0	
+[00:00:13]: setting 	iswet	false	
+[00:00:13]: setting 	isnewmoon	false	
+[00:00:13]: setting 	precipitation	none	
+[00:00:13]: setting 	israining	false	
+[00:00:13]: setting 	isnightmarewarn	false	
+[00:00:13]: setting 	iswinter	false	
+[00:00:13]: setting 	season	autumn	
+[00:00:13]: setting 	remainingdaysinseason	14	
+[00:00:13]: setting 	winterlength	15	
+[00:00:13]: setting 	iscaveday	true	
+[00:00:13]: setting 	moistureceil	11484.82421875	
+[00:00:13]: setting 	isday	true	
+[00:00:13]: setting 	springlength	20	
+[00:00:13]: setting 	wetness	0	
+[00:00:13]: setting 	iscavedusk	false	
+[00:00:13]: setting 	isalterawake	false	
+[00:00:13]: setting 	isnightmarecalm	false	
+[00:00:13]: setting 	isnight	false	
+[00:00:13]: setting 	isdusk	false	
+[00:00:13]: setting 	isspring	false	
+[00:00:13]: setting 	isautumn	true	
+[00:00:13]: setting 	issnowing	false	
+[00:00:13]: setting 	iswaxingmoon	true	
+[00:00:13]: setting 	phase	day	
+[00:00:13]: setting 	snowlevel	0	
+[00:00:13]: setting 	issnowcovered	false	
+[00:00:13]: setting 	autumnlength	20	
+[00:00:13]: setting 	pop	0.38045456553648	
+[00:00:13]: setting 	nightmaretime	0	
+[00:00:13]: setting 	seasonprogress	0.3	
+[00:00:13]: setting 	moonphase	half	
+[00:00:13]: setting 	nightmarephase	none	
+[00:00:13]: setting 	cycles	286	
+[00:00:13]: setting 	timeinphase	0.91923138300578	
+[00:00:13]: setting 	iscavenight	false	
+[00:00:13]: setting 	iscavenewmoon	false	
+[00:00:13]: setting 	issummer	false	
+[00:00:13]: setting 	temperature	42.398637737459	
+[00:00:13]: setting 	time	0.45961569150289	
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:20]: Reconstructing topology	
+[00:00:20]: 	...Sorting points	
+[00:00:20]: 	...Sorting edges	
+[00:00:20]: 	...Connecting nodes	
+[00:00:20]: 	...Validating connections	
+[00:00:20]: 	...Housekeeping	
+[00:00:20]: 	...Done!	
+[00:00:20]: Truncating to snapshot #308...
+[00:00:20]:  - session/84FECDB5A7FE0E46/A7K6G3H4GU0N/0000000309
+[00:00:20]:  - session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000309
+[00:00:20]:    2 file(s) removed
+[00:00:20]: Restoring user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000308	
+[00:00:20]: Restoring user: session/84FECDB5A7FE0E46/A7K6G3H4GU0N/0000000308	
+[00:00:20]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000309
+[00:00:20]: Serializing user: session/84FECDB5A7FE0E46/A7K6G3H4GU0N/0000000309
+[00:00:20]: 1 uploads added to server. From server_temp
+[00:00:20]: About to start a shard with these settings:
+[00:00:20]:   ShardName: [SHDMASTER]
+[00:00:20]:   ShardID: 1
+[00:00:20]:   ShardRole: MASTER
+[00:00:20]:   MasterHost: (null)
+[00:00:20]:   MasterBind: 127.0.0.1
+[00:00:20]:   MasterPort: 11001
+[00:00:20]: [Shard] Starting master server
+[00:00:20]: [Shard] Shard server started on port: 11001
+[00:00:20]: Telling Client our new session identifier: 84FECDB5A7FE0E46
+[00:00:20]: Check for write access: TRUE
+[00:00:20]: Check for read access: TRUE
+[00:00:20]: Available disk space for save files: 109154 MB
+[00:00:20]: ModIndex: Load sequence finished successfully.	
+[00:00:21]: Reset() returning
+[00:00:22]: Validating portal[2] <-> 3921448560[2] (inactive)	
+[00:00:22]: Validating portal[1] <-> 3921448560[1] (inactive)	
+[00:00:22]: Validating portal[7] <-> 3921448560[7] (inactive)	
+[00:00:22]: Validating portal[3] <-> 3921448560[3] (inactive)	
+[00:00:22]: Validating portal[10] <-> 3921448560[10] (inactive)	
+[00:00:22]: Validating portal[5] <-> 3921448560[5] (inactive)	
+[00:00:22]: Validating portal[6] <-> 3921448560[6] (inactive)	
+[00:00:22]: Validating portal[9] <-> 3921448560[9] (inactive)	
+[00:00:22]: Validating portal[8] <-> 3921448560[8] (inactive)	
+[00:00:22]: Validating portal[4] <-> 3921448560[4] (inactive)	
+[00:00:22]: Sim paused
+[00:00:23]: Best lobby region is aws/Sing (ping 80)
+[00:00:23]: Registering master server in Sing lobby
+[00:00:24]: [Shard] Secondary shar Caves(3921448560) connected: [LAN] 127.0.0.1
+[00:00:25]: [Shard] Secondary Caves(3921448560) ready!
+[00:00:25]: World 3921448560 is now connected	
+[00:00:25]: Validating portal[2] <-> 3921448560[2] (active)	
+[00:00:25]: Validating portal[1] <-> 3921448560[1] (active)	
+[00:00:25]: Validating portal[7] <-> 3921448560[7] (active)	
+[00:00:25]: Validating portal[3] <-> 3921448560[3] (disabled)	
+[00:00:25]: Validating portal[10] <-> 3921448560[10] (active)	
+[00:00:25]: Validating portal[5] <-> 3921448560[5] (disabled)	
+[00:00:25]: Validating portal[6] <-> 3921448560[6] (active)	
+[00:00:25]: Validating portal[9] <-> 3921448560[9] (disabled)	
+[00:00:25]: Validating portal[8] <-> 3921448560[8] (active)	
+[00:00:25]: Validating portal[4] <-> 3921448560[4] (active)	
+[00:00:34]: Registering master server in Sing lobby
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[01:00:05]: [200] Account Communication Success (6)
+[01:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[01:30:04]: [200] Account Communication Success (6)
+[01:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[02:00:05]: [200] Account Communication Success (6)
+[02:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[02:30:04]: [200] Account Communication Success (6)
+[02:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[03:00:05]: [200] Account Communication Success (6)
+[03:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[03:30:05]: [200] Account Communication Success (6)
+[03:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[04:00:05]: [200] Account Communication Success (6)
+[04:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[04:30:05]: [200] Account Communication Success (6)
+[04:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[05:00:05]: [200] Account Communication Success (6)
+[05:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[05:30:05]: [200] Account Communication Success (6)
+[05:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[06:00:05]: [200] Account Communication Success (6)
+[06:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[06:30:05]: [200] Account Communication Success (6)
+[06:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[07:00:05]: [200] Account Communication Success (6)
+[07:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[07:30:05]: [200] Account Communication Success (6)
+[07:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[08:00:05]: [200] Account Communication Success (6)
+[08:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[08:30:05]: [200] Account Communication Success (6)
+[08:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[09:00:08]: [200] Account Communication Success (6)
+[09:00:08]: Received (KU_3_YqzVGF) from TokenPurpose
+[09:30:05]: [200] Account Communication Success (6)
+[09:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[10:00:05]: [200] Account Communication Success (6)
+[10:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[10:30:05]: [200] Account Communication Success (6)
+[10:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[11:00:05]: [200] Account Communication Success (6)
+[11:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[11:30:05]: [200] Account Communication Success (6)
+[11:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[12:00:05]: [200] Account Communication Success (6)
+[12:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[12:30:05]: [200] Account Communication Success (6)
+[12:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[13:00:05]: [200] Account Communication Success (6)
+[13:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[13:30:05]: [200] Account Communication Success (6)
+[13:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[13:44:22]: [P2P] Session request for '76561198866343932'
+[13:44:23]: [P2P] Create session: 146.155.49.41|1 '76561198866343932'
+[13:44:23]: [P2P] Received from 146.155.49.41|1 '76561198866343932'
+[13:44:23]: [P2P] Sent to 146.155.49.41|1 '76561198866343932'
+[13:44:30]: New incoming connection 146.155.49.41|1 <8038384495769842746>
+[13:44:30]: Client connected from 146.155.49.41|1 <8038384495769842746>
+[13:44:30]: ValidateGameSessionToken pgs-usc^KU__CRUc5lN^DontStarveTogether^fuiI1gPirKhsr38xFPQZaUG5nOSIcohewyxmXUCk49k= for <8038384495769842746>
+[13:44:31]: Client authenticated: (KU__CRUc5lN) summerland1928
+[13:44:31]: [Steam] SendUserConnectAndAuthenticate for '76561198866343932'
+[13:44:31]: [Steam] Authenticated client '76561198866343932'
+[13:44:32]: There is no active event to validate against.
+[13:44:32]: [Shard] Read save location file for (KU__CRUc5lN)
+[13:44:32]: [Shard] Forwarding player to Caves(3921448560)
+[13:44:32]: [Shard] Begin migration #1 for (KU__CRUc5lN)
+[13:44:32]: [Shard] #1 [SHDMASTER](1) -> Caves(3921448560)
+[13:44:32]: Registering master server in Sing lobby
+[13:44:32]: Sim unpaused
+[13:44:32]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[13:44:32]: [Steam] SendUserDisconnect for '76561198866343932'
+[13:44:32]: [Shard] (KU__CRUc5lN) disconnected from [SHDMASTER](1)
+[13:44:39]: A timer with the name 	salt	 already exists on 	102378 - beefalo	!	
+[13:44:47]: [Shard] Completed migration #1 for player (KU__CRUc5lN)
+[13:45:15]: Registering master server in Sing lobby
+[13:45:31]: [P2P] Session request for '76561198088240120'
+[13:45:35]: [P2P] Create session: 146.155.49.42|1 '76561198088240120'
+[13:45:35]: [P2P] Received from 146.155.49.42|1 '76561198088240120'
+[13:45:35]: [P2P] Sent to 146.155.49.42|1 '76561198088240120'
+[13:45:35]: New incoming connection 146.155.49.42|1 <9118236489098095355>
+[13:45:35]: Client connected from 146.155.49.42|1 <9118236489098095355>
+[13:45:35]: ValidateGameSessionToken pgs-usc^KU_3_YqzVGF^DontStarveTogether^WRH8El8ZizWMilFfQM2QNiC1H8YJZrKhR1RB7AEJDes= for <9118236489098095355>
+[13:45:36]: Client authenticated: (KU_3_YqzVGF) wayne930242
+[13:45:36]: [Steam] Authenticated host '76561198088240120'
+[13:45:38]: There is no active event to validate against.
+[13:45:38]: [Shard] Read save location file for (KU_3_YqzVGF)
+[13:45:38]: Registering master server in Sing lobby
+[13:45:51]: [Shard] Begin migration #2 for (KU__CRUc5lN)
+[13:45:51]: [Shard] #2 Caves(3921448560) -> [SHDMASTER](1)
+[13:45:51]: [Shard] #2 -> session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000309
+[13:45:51]: [Shard] Received migration #2 data for (KU__CRUc5lN)
+[13:45:51]: [Shard] Writing save location file for (KU__CRUc5lN)
+[13:45:52]: [Shard] (KU__CRUc5lN) disconnected from Caves(3921448560)
+[13:45:57]: [P2P] Received from 146.155.49.41|1 '76561198866343932'
+[13:45:57]: [P2P] Sent to 146.155.49.41|1 '76561198866343932'
+[13:45:58]: New incoming connection 146.155.49.41|1 <11144269737823946614>
+[13:45:58]: Client connected from 146.155.49.41|1 <11144269737823946614>
+[13:45:58]: ValidateGameSessionToken pgs-usc^KU__CRUc5lN^DontStarveTogether^QCs+NXQVz/prGFFhtRDU4wYDxgMLTh8nxOxNSHqchzo= for <11144269737823946614>
+[13:45:58]: Client authenticated: (KU__CRUc5lN) summerland1928
+[13:45:59]: [Steam] SendUserConnectAndAuthenticate for '76561198866343932'
+[13:45:59]: [Steam] Authenticated client '76561198866343932'
+[13:45:59]: [Shard] Completed incoming migration #2 for (KU__CRUc5lN)
+[13:45:59]: [Shard] Completed migration #2 for player (KU__CRUc5lN)
+[13:46:05]: Resuming user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000309
+[13:46:05]: Spawning player at: [Load] (-48.45, -0.00, -160.90)	
+[13:46:10]: Resuming user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000309
+[13:46:10]: Player will spawn close to portal #7	
+[13:46:10]: Spawning player at: [Load] (-160.73, 0.00, -148.94)	
+[13:46:13]: Registering master server in Sing lobby
+[13:48:52]: Available disk space for save files: 109135 MB
+[13:48:53]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000309
+[13:48:53]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000309
+[13:48:53]: Missing reference:	102376 - beef_bell	->	102378	102378 - beefalo	
+[13:48:53]: Serializing world: session/84FECDB5A7FE0E46/0000000309
+[13:48:53]: Registering master server in Sing lobby
+[13:49:32]: Could not find anim [dismount] in bank [wilson]
+[13:56:53]: Available disk space for save files: 109131 MB
+[13:56:53]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000310
+[13:56:53]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000310
+[13:56:53]: Missing reference:	102376 - beef_bell	->	102378	102378 - beefalo	
+[13:56:54]: Serializing world: session/84FECDB5A7FE0E46/0000000310
+[13:56:58]: Registering master server in Sing lobby
+[14:00:05]: [200] Account Communication Success (6)
+[14:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[14:04:53]: Registering master server in Sing lobby
+[14:04:54]: Available disk space for save files: 109128 MB
+[14:04:54]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311
+[14:04:54]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311
+[14:04:54]: Missing reference:	102376 - beef_bell	->	102378	102378 - beefalo	
+[14:04:54]: Serializing world: session/84FECDB5A7FE0E46/0000000311
+[14:06:22]: KU_3_YqzVGF	running text command:	rollback	true	
+[14:06:27]: Received world rollback request: count=1	
+[14:06:27]: Truncating to snapshot #311...
+[14:06:27]:  - session/84FECDB5A7FE0E46/0000000303
+[14:06:27]:  - session/84FECDB5A7FE0E46/0000000304
+[14:06:27]:  - session/84FECDB5A7FE0E46/0000000305
+[14:06:27]:  - session/84FECDB5A7FE0E46/A7K6G3H4GU0N/0000000285
+[14:06:27]:  - session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000305
+[14:06:27]:  - session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000304
+[14:06:27]:  - session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000283
+[14:06:27]:    7 file(s) removed
+[14:06:27]:  > session/84FECDB5A7FE0E46/A7K6G3H4GU0N/savelocation
+[14:06:27]:  > session/84FECDB5A7FE0E46/A7GFV2QFBT0F/savelocation
+[14:06:27]:    2 file(s) updated
+[14:06:28]: Collecting garbage...
+[14:06:28]: lua_gc took 0.45 seconds
+[14:06:28]: ~ShardLuaProxy()
+[14:06:28]: ~cEventLeaderboardProxy()
+[14:06:28]: ~ItemServerLuaProxy()
+[14:06:28]: ~InventoryLuaProxy()
+[14:06:28]: ~NetworkLuaProxy()
+[14:06:28]: ~SimLuaProxy()
+[14:06:29]: lua_close took 0.79 seconds
+[14:06:29]: ReleaseAll
+[14:06:29]: ReleaseAll Finished
+[14:06:29]: cGame::StartPlaying
+[14:06:29]: LOADING LUA
+[14:06:29]: DoLuaFile scripts/main.lua
+[14:06:29]: DoLuaFile loading buffer scripts/main.lua
+[14:06:29]:   taskgrouplist:	default	Together	
+[14:06:29]:   taskgrouplist:	classic	Classic	
+[14:06:29]:   taskgrouplist:	cave_default	Underground	
+[14:06:29]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[14:06:29]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[14:06:29]: running main.lua
+	
+[14:06:29]: loaded modindex	
+[14:06:29]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[14:06:29]: SUCCESS: Loaded modoverrides.lua	
+[14:06:29]: modoverrides.lua enabling workshop-1207269058	
+[14:06:29]: modoverrides.lua enabling workshop-2477889104	
+[14:06:29]: modoverrides.lua enabling workshop-1111658995	
+[14:06:29]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[14:06:29]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[14:06:29]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[14:06:29]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[14:06:29]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[14:06:29]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[14:06:29]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[14:06:29]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[14:06:29]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.1.0	
+[14:06:29]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[14:06:29]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:06:29]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[14:06:29]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[14:06:29]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[14:06:29]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:06:29]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[14:06:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[14:06:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:06:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[14:06:30]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[14:06:30]: LOADING LUA SUCCESS
+[14:06:30]: Registering Server mod namespace "workshop-1207269058"
+[14:06:30]: Registering Server mod namespace "workshop-1111658995"
+[14:06:30]: PlayerDeaths could not load morgue	
+[14:06:30]: PlayerHistory could not load player_history	
+[14:06:30]: ServerPreferences could not load server_preferences	
+[14:06:30]: bloom_enabled	true	
+[14:06:30]: OnFilesLoaded()	
+[14:06:30]: OnUpdatePurchaseStateComplete	
+[14:06:30]: Loading world: session/84FECDB5A7FE0E46/0000000311	
+[14:06:30]: Save file is at version 5.065	
+[14:06:30]: Klump load on boot started.	
+[14:06:30]: Klump files loaded: 	0	
+[14:06:30]: 	Unload characters	
+[14:06:30]: 	BE assets already loaded	
+[14:06:30]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[14:06:30]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[14:06:30]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[14:06:30]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[14:06:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[14:06:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[14:06:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[14:06:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[14:06:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[14:06:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[14:06:30]: Begin Session: 84FECDB5A7FE0E46
+[14:06:30]: Stomping previously assigned session identifier, two loads issued.
+[14:06:31]: saving to server_temp/server_save	
+[14:06:31]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[14:06:31]: Loading 17 new character(s)	
+[14:06:31]: Total 17 character(s) loaded	
+[14:06:32]: Loading Nav Grid	
+[14:06:32]: World generated on build 466644 with save version: 5.065, using seed: 1622907743	
+[14:06:32]: setting 	summerlength	15	
+[14:06:32]: setting 	cavemoonphase	threequarter	
+[14:06:32]: setting 	iscavefullmoon	false	
+[14:06:32]: setting 	isnightmaredawn	false	
+[14:06:32]: setting 	elapseddaysinseason	9	
+[14:06:32]: setting 	isfullmoon	false	
+[14:06:32]: setting 	moisture	6987.3798828125	
+[14:06:32]: setting 	cavephase	day	
+[14:06:32]: setting 	iscavewaxingmoon	false	
+[14:06:32]: setting 	isnightmarewild	false	
+[14:06:32]: setting 	nightmaretimeinphase	0	
+[14:06:32]: setting 	precipitationrate	0	
+[14:06:32]: setting 	iswet	false	
+[14:06:32]: setting 	isnewmoon	false	
+[14:06:32]: setting 	precipitation	none	
+[14:06:32]: setting 	israining	false	
+[14:06:32]: setting 	isnightmarewarn	false	
+[14:06:32]: setting 	iswinter	false	
+[14:06:32]: setting 	season	autumn	
+[14:06:32]: setting 	remainingdaysinseason	11	
+[14:06:32]: setting 	winterlength	15	
+[14:06:32]: setting 	iscaveday	true	
+[14:06:32]: setting 	moistureceil	11484.82421875	
+[14:06:32]: setting 	isday	true	
+[14:06:32]: setting 	springlength	20	
+[14:06:32]: setting 	wetness	0	
+[14:06:32]: setting 	iscavedusk	false	
+[14:06:32]: setting 	isalterawake	false	
+[14:06:32]: setting 	isnightmarecalm	false	
+[14:06:32]: setting 	isnight	false	
+[14:06:32]: setting 	isdusk	false	
+[14:06:32]: setting 	isspring	false	
+[14:06:32]: setting 	isautumn	true	
+[14:06:32]: setting 	issnowing	false	
+[14:06:32]: setting 	iswaxingmoon	false	
+[14:06:32]: setting 	phase	day	
+[14:06:32]: setting 	snowlevel	0	
+[14:06:32]: setting 	issnowcovered	false	
+[14:06:32]: setting 	autumnlength	20	
+[14:06:32]: setting 	pop	0.43165634271839	
+[14:06:32]: setting 	nightmaretime	0	
+[14:06:32]: setting 	seasonprogress	0.45	
+[14:06:32]: setting 	moonphase	threequarter	
+[14:06:32]: setting 	nightmarephase	none	
+[14:06:32]: setting 	cycles	289	
+[14:06:32]: setting 	timeinphase	0.0041131973266602	
+[14:06:32]: setting 	iscavenight	false	
+[14:06:32]: setting 	iscavenewmoon	false	
+[14:06:32]: setting 	issummer	false	
+[14:06:32]: setting 	temperature	32.460038607734	
+[14:06:32]: setting 	time	0.0020565986633301	
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:41]: Could not find anim build FROMNUM
+[14:06:43]: Reconstructing topology	
+[14:06:43]: 	...Sorting points	
+[14:06:43]: 	...Sorting edges	
+[14:06:43]: 	...Connecting nodes	
+[14:06:43]: 	...Validating connections	
+[14:06:43]: 	...Housekeeping	
+[14:06:43]: 	...Done!	
+[14:06:43]: Restoring user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311	
+[14:06:43]: Restoring user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311	
+[14:06:43]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000312
+[14:06:43]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000312
+[14:06:43]: 1 uploads added to server. From server_temp
+[14:06:43]: World 3921448560 is now connected	
+[14:06:43]: Telling Client our new session identifier: 84FECDB5A7FE0E46
+[14:06:43]: Check for write access: TRUE
+[14:06:43]: Check for read access: TRUE
+[14:06:43]: Available disk space for save files: 109134 MB
+[14:06:43]: ModIndex: Load sequence finished successfully.	
+[14:06:44]: Reset() returning
+[14:06:44]: [Shard] Secondary shard 'Caves(3921448560)' restarting...
+[14:06:44]: World 3921448560 is now disconnected	
+[14:06:45]: Validating portal[6] <-> 3921448560[6] (inactive)	
+[14:06:45]: Validating portal[10] <-> 3921448560[10] (inactive)	
+[14:06:45]: Validating portal[2] <-> 3921448560[2] (inactive)	
+[14:06:45]: Validating portal[8] <-> 3921448560[8] (inactive)	
+[14:06:45]: Validating portal[3] <-> 3921448560[3] (inactive)	
+[14:06:45]: Validating portal[4] <-> 3921448560[4] (inactive)	
+[14:06:45]: Validating portal[5] <-> 3921448560[5] (inactive)	
+[14:06:45]: Validating portal[7] <-> 3921448560[7] (inactive)	
+[14:06:45]: Validating portal[1] <-> 3921448560[1] (inactive)	
+[14:06:45]: Validating portal[9] <-> 3921448560[9] (inactive)	
+[14:06:46]: Sim paused
+[14:06:54]: Registering master server in Sing lobby
+[14:06:55]: Restarting player migration on master server
+[14:06:55]: [Shard] Read save location file for (KU__CRUc5lN)
+[14:06:55]: Resuming user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000312
+[14:06:55]: Spawning player at: [Load] (-91.93, 0.00, -188.38)	
+[14:06:55]: Sim unpaused
+[14:06:58]: [Shard] Secondary Caves(3921448560) ready!
+[14:06:58]: World 3921448560 is now connected	
+[14:06:58]: Validating portal[6] <-> 3921448560[6] (active)	
+[14:06:58]: Validating portal[10] <-> 3921448560[10] (active)	
+[14:06:58]: Validating portal[2] <-> 3921448560[2] (active)	
+[14:06:58]: Validating portal[8] <-> 3921448560[8] (active)	
+[14:06:58]: Validating portal[3] <-> 3921448560[3] (disabled)	
+[14:06:58]: Validating portal[4] <-> 3921448560[4] (active)	
+[14:06:58]: Validating portal[5] <-> 3921448560[5] (disabled)	
+[14:06:58]: Validating portal[7] <-> 3921448560[7] (active)	
+[14:06:58]: Validating portal[1] <-> 3921448560[1] (active)	
+[14:06:58]: Validating portal[9] <-> 3921448560[9] (disabled)	
+[14:07:00]: Restarting player migration on master server
+[14:07:00]: [Shard] Read save location file for (KU_3_YqzVGF)
+[14:07:00]: Resuming user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000312
+[14:07:00]: Spawning player at: [Load] (-120.85, 0.00, -175.70)	
+[14:07:04]: Registering master server in Sing lobby
+[14:07:14]: KU_3_YqzVGF	running text command:	rollback	true	
+[14:07:19]: Received world rollback request: count=1	
+[14:07:19]: Truncating to snapshot #310...
+[14:07:19]:  - session/84FECDB5A7FE0E46/0000000311
+[14:07:19]:  - session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000312
+[14:07:19]:  - session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311
+[14:07:19]:  - session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000312
+[14:07:19]:  - session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311
+[14:07:19]:    5 file(s) removed
+[14:07:20]: Collecting garbage...
+[14:07:21]: lua_gc took 0.37 seconds
+[14:07:21]: ~ShardLuaProxy()
+[14:07:21]: ~cEventLeaderboardProxy()
+[14:07:21]: ~ItemServerLuaProxy()
+[14:07:21]: ~InventoryLuaProxy()
+[14:07:21]: ~NetworkLuaProxy()
+[14:07:21]: ~SimLuaProxy()
+[14:07:21]: lua_close took 0.75 seconds
+[14:07:21]: ReleaseAll
+[14:07:21]: ReleaseAll Finished
+[14:07:21]: cGame::StartPlaying
+[14:07:21]: LOADING LUA
+[14:07:21]: DoLuaFile scripts/main.lua
+[14:07:21]: DoLuaFile loading buffer scripts/main.lua
+[14:07:22]:   taskgrouplist:	default	Together	
+[14:07:22]:   taskgrouplist:	classic	Classic	
+[14:07:22]:   taskgrouplist:	cave_default	Underground	
+[14:07:22]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[14:07:22]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[14:07:22]: running main.lua
+	
+[14:07:22]: loaded modindex	
+[14:07:22]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[14:07:22]: SUCCESS: Loaded modoverrides.lua	
+[14:07:22]: modoverrides.lua enabling workshop-1207269058	
+[14:07:22]: modoverrides.lua enabling workshop-2477889104	
+[14:07:22]: modoverrides.lua enabling workshop-1111658995	
+[14:07:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[14:07:22]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[14:07:22]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[14:07:22]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[14:07:22]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[14:07:22]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[14:07:22]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[14:07:22]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[14:07:22]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.1.0	
+[14:07:22]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[14:07:22]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:07:22]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[14:07:22]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[14:07:22]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[14:07:22]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:07:22]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[14:07:22]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[14:07:22]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:07:22]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[14:07:22]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[14:07:22]: LOADING LUA SUCCESS
+[14:07:22]: Registering Server mod namespace "workshop-1207269058"
+[14:07:22]: Registering Server mod namespace "workshop-1111658995"
+[14:07:22]: PlayerDeaths could not load morgue	
+[14:07:22]: PlayerHistory could not load player_history	
+[14:07:22]: ServerPreferences could not load server_preferences	
+[14:07:22]: bloom_enabled	true	
+[14:07:22]: OnFilesLoaded()	
+[14:07:22]: OnUpdatePurchaseStateComplete	
+[14:07:22]: Loading world: session/84FECDB5A7FE0E46/0000000310	
+[14:07:22]: Save file is at version 5.065	
+[14:07:22]: Klump load on boot started.	
+[14:07:22]: Klump files loaded: 	0	
+[14:07:22]: 	Unload characters	
+[14:07:22]: 	BE assets already loaded	
+[14:07:23]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[14:07:23]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[14:07:23]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[14:07:23]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[14:07:23]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[14:07:23]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[14:07:23]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[14:07:23]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[14:07:23]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[14:07:23]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[14:07:23]: Begin Session: 84FECDB5A7FE0E46
+[14:07:23]: Stomping previously assigned session identifier, two loads issued.
+[14:07:23]: saving to server_temp/server_save	
+[14:07:23]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[14:07:23]: Loading 17 new character(s)	
+[14:07:23]: Total 17 character(s) loaded	
+[14:07:24]: Loading Nav Grid	
+[14:07:24]: World generated on build 466644 with save version: 5.065, using seed: 1622907743	
+[14:07:24]: setting 	summerlength	15	
+[14:07:24]: setting 	cavemoonphase	threequarter	
+[14:07:24]: setting 	iscavefullmoon	false	
+[14:07:24]: setting 	isnightmaredawn	false	
+[14:07:24]: setting 	elapseddaysinseason	8	
+[14:07:24]: setting 	isfullmoon	false	
+[14:07:24]: setting 	moisture	6846.79296875	
+[14:07:24]: setting 	cavephase	day	
+[14:07:24]: setting 	iscavewaxingmoon	true	
+[14:07:24]: setting 	isnightmarewild	false	
+[14:07:24]: setting 	nightmaretimeinphase	0	
+[14:07:24]: setting 	precipitationrate	0	
+[14:07:24]: setting 	iswet	false	
+[14:07:24]: setting 	isnewmoon	false	
+[14:07:24]: setting 	precipitation	none	
+[14:07:24]: setting 	israining	false	
+[14:07:24]: setting 	isnightmarewarn	false	
+[14:07:24]: setting 	iswinter	false	
+[14:07:24]: setting 	season	autumn	
+[14:07:24]: setting 	remainingdaysinseason	12	
+[14:07:24]: setting 	winterlength	15	
+[14:07:24]: setting 	iscaveday	true	
+[14:07:24]: setting 	moistureceil	11484.82421875	
+[14:07:24]: setting 	isday	true	
+[14:07:24]: setting 	springlength	20	
+[14:07:24]: setting 	wetness	0	
+[14:07:24]: setting 	iscavedusk	false	
+[14:07:24]: setting 	isalterawake	false	
+[14:07:24]: setting 	isnightmarecalm	false	
+[14:07:24]: setting 	isnight	false	
+[14:07:24]: setting 	isdusk	false	
+[14:07:24]: setting 	isspring	false	
+[14:07:24]: setting 	isautumn	true	
+[14:07:24]: setting 	issnowing	false	
+[14:07:24]: setting 	iswaxingmoon	true	
+[14:07:24]: setting 	phase	day	
+[14:07:24]: setting 	snowlevel	0	
+[14:07:24]: setting 	issnowcovered	false	
+[14:07:24]: setting 	autumnlength	20	
+[14:07:24]: setting 	pop	0.41389032385613	
+[14:07:24]: setting 	nightmaretime	0	
+[14:07:24]: setting 	seasonprogress	0.4	
+[14:07:24]: setting 	moonphase	threequarter	
+[14:07:24]: setting 	nightmarephase	none	
+[14:07:24]: setting 	cycles	288	
+[14:07:24]: setting 	timeinphase	0.004121971130371	
+[14:07:24]: setting 	iscavenight	false	
+[14:07:24]: setting 	iscavenewmoon	false	
+[14:07:24]: setting 	issummer	false	
+[14:07:24]: setting 	temperature	33.717297328354	
+[14:07:24]: setting 	time	0.0020609855651855	
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:33]: Could not find anim build FROMNUM
+[14:07:35]: Reconstructing topology	
+[14:07:35]: 	...Sorting points	
+[14:07:35]: 	...Sorting edges	
+[14:07:35]: 	...Connecting nodes	
+[14:07:35]: 	...Validating connections	
+[14:07:35]: 	...Housekeeping	
+[14:07:35]: 	...Done!	
+[14:07:35]: Restoring user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000310	
+[14:07:35]: Restoring user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000310	
+[14:07:35]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311
+[14:07:35]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311
+[14:07:35]: 1 uploads added to server. From server_temp
+[14:07:35]: World 3921448560 is now connected	
+[14:07:35]: Telling Client our new session identifier: 84FECDB5A7FE0E46
+[14:07:35]: Check for write access: TRUE
+[14:07:35]: Check for read access: TRUE
+[14:07:35]: Available disk space for save files: 109138 MB
+[14:07:35]: ModIndex: Load sequence finished successfully.	
+[14:07:36]: Reset() returning
+[14:07:36]: Registering master server in Sing lobby
+[14:07:36]: [Shard] Secondary shard 'Caves(3921448560)' restarting...
+[14:07:36]: World 3921448560 is now disconnected	
+[14:07:37]: Validating portal[1] <-> 3921448560[1] (inactive)	
+[14:07:37]: Validating portal[8] <-> 3921448560[8] (inactive)	
+[14:07:37]: Validating portal[6] <-> 3921448560[6] (inactive)	
+[14:07:37]: Validating portal[10] <-> 3921448560[10] (inactive)	
+[14:07:37]: Validating portal[7] <-> 3921448560[7] (inactive)	
+[14:07:37]: Validating portal[5] <-> 3921448560[5] (inactive)	
+[14:07:37]: Validating portal[3] <-> 3921448560[3] (inactive)	
+[14:07:37]: Validating portal[2] <-> 3921448560[2] (inactive)	
+[14:07:37]: Validating portal[4] <-> 3921448560[4] (inactive)	
+[14:07:37]: Validating portal[9] <-> 3921448560[9] (inactive)	
+[14:07:37]: Sim paused
+[14:07:46]: Registering master server in Sing lobby
+[14:07:47]: Restarting player migration on master server
+[14:07:47]: [Shard] Read save location file for (KU__CRUc5lN)
+[14:07:47]: Resuming user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311
+[14:07:47]: Spawning player at: [Load] (-53.36, 0.00, -151.99)	
+[14:07:47]: Sim unpaused
+[14:07:51]: [Shard] Secondary Caves(3921448560) ready!
+[14:07:51]: World 3921448560 is now connected	
+[14:07:51]: Validating portal[1] <-> 3921448560[1] (active)	
+[14:07:51]: Validating portal[8] <-> 3921448560[8] (active)	
+[14:07:51]: Validating portal[6] <-> 3921448560[6] (active)	
+[14:07:51]: Validating portal[10] <-> 3921448560[10] (active)	
+[14:07:51]: Validating portal[7] <-> 3921448560[7] (active)	
+[14:07:51]: Validating portal[5] <-> 3921448560[5] (disabled)	
+[14:07:51]: Validating portal[3] <-> 3921448560[3] (disabled)	
+[14:07:51]: Validating portal[2] <-> 3921448560[2] (active)	
+[14:07:51]: Validating portal[4] <-> 3921448560[4] (active)	
+[14:07:51]: Validating portal[9] <-> 3921448560[9] (disabled)	
+[14:07:52]: Restarting player migration on master server
+[14:07:52]: [Shard] Read save location file for (KU_3_YqzVGF)
+[14:07:52]: Resuming user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311
+[14:07:52]: Spawning player at: [Load] (-48.59, 0.00, -152.31)	
+[14:07:56]: Registering master server in Sing lobby
+[14:15:11]: KU_3_YqzVGF	running text command:	rollback	true	
+[14:15:16]: Received world rollback request: count=1	
+[14:15:16]: Truncating to snapshot #310...
+[14:15:16]:  - session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311
+[14:15:16]:  - session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311
+[14:15:16]:    2 file(s) removed
+[14:15:17]: Collecting garbage...
+[14:15:18]: lua_gc took 0.50 seconds
+[14:15:18]: ~ShardLuaProxy()
+[14:15:18]: ~cEventLeaderboardProxy()
+[14:15:18]: ~ItemServerLuaProxy()
+[14:15:18]: ~InventoryLuaProxy()
+[14:15:18]: ~NetworkLuaProxy()
+[14:15:18]: ~SimLuaProxy()
+[14:15:18]: lua_close took 0.81 seconds
+[14:15:18]: ReleaseAll
+[14:15:18]: ReleaseAll Finished
+[14:15:18]: cGame::StartPlaying
+[14:15:19]: LOADING LUA
+[14:15:19]: DoLuaFile scripts/main.lua
+[14:15:19]: DoLuaFile loading buffer scripts/main.lua
+[14:15:19]:   taskgrouplist:	default	Together	
+[14:15:19]:   taskgrouplist:	classic	Classic	
+[14:15:19]:   taskgrouplist:	cave_default	Underground	
+[14:15:19]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[14:15:19]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[14:15:19]: running main.lua
+	
+[14:15:19]: loaded modindex	
+[14:15:19]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[14:15:19]: SUCCESS: Loaded modoverrides.lua	
+[14:15:19]: modoverrides.lua enabling workshop-1207269058	
+[14:15:19]: modoverrides.lua enabling workshop-2477889104	
+[14:15:19]: modoverrides.lua enabling workshop-1111658995	
+[14:15:19]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[14:15:19]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[14:15:19]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[14:15:19]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[14:15:19]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[14:15:19]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[14:15:19]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[14:15:19]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[14:15:19]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.1.0	
+[14:15:19]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[14:15:19]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:15:19]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[14:15:19]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[14:15:19]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[14:15:19]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:15:19]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[14:15:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[14:15:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[14:15:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[14:15:19]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[14:15:19]: LOADING LUA SUCCESS
+[14:15:19]: Registering Server mod namespace "workshop-1207269058"
+[14:15:19]: Registering Server mod namespace "workshop-1111658995"
+[14:15:19]: PlayerDeaths could not load morgue	
+[14:15:19]: PlayerHistory could not load player_history	
+[14:15:19]: ServerPreferences could not load server_preferences	
+[14:15:19]: bloom_enabled	true	
+[14:15:19]: OnFilesLoaded()	
+[14:15:19]: OnUpdatePurchaseStateComplete	
+[14:15:19]: Loading world: session/84FECDB5A7FE0E46/0000000310	
+[14:15:19]: Save file is at version 5.065	
+[14:15:19]: Klump load on boot started.	
+[14:15:19]: Klump files loaded: 	0	
+[14:15:19]: 	Unload characters	
+[14:15:19]: 	BE assets already loaded	
+[14:15:20]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[14:15:20]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[14:15:20]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[14:15:20]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[14:15:20]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[14:15:20]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[14:15:20]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[14:15:20]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[14:15:20]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[14:15:20]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[14:15:20]: Begin Session: 84FECDB5A7FE0E46
+[14:15:20]: Stomping previously assigned session identifier, two loads issued.
+[14:15:20]: saving to server_temp/server_save	
+[14:15:20]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[14:15:20]: Loading 17 new character(s)	
+[14:15:21]: Total 17 character(s) loaded	
+[14:15:22]: Loading Nav Grid	
+[14:15:22]: World generated on build 466644 with save version: 5.065, using seed: 1622907743	
+[14:15:22]: setting 	summerlength	15	
+[14:15:22]: setting 	cavemoonphase	threequarter	
+[14:15:22]: setting 	iscavefullmoon	false	
+[14:15:22]: setting 	isnightmaredawn	false	
+[14:15:22]: setting 	elapseddaysinseason	8	
+[14:15:22]: setting 	isfullmoon	false	
+[14:15:22]: setting 	moisture	6846.79296875	
+[14:15:22]: setting 	cavephase	day	
+[14:15:22]: setting 	iscavewaxingmoon	true	
+[14:15:22]: setting 	isnightmarewild	false	
+[14:15:22]: setting 	nightmaretimeinphase	0	
+[14:15:22]: setting 	precipitationrate	0	
+[14:15:22]: setting 	iswet	false	
+[14:15:22]: setting 	isnewmoon	false	
+[14:15:22]: setting 	precipitation	none	
+[14:15:22]: setting 	israining	false	
+[14:15:22]: setting 	isnightmarewarn	false	
+[14:15:22]: setting 	iswinter	false	
+[14:15:22]: setting 	season	autumn	
+[14:15:22]: setting 	remainingdaysinseason	12	
+[14:15:22]: setting 	winterlength	15	
+[14:15:22]: setting 	iscaveday	true	
+[14:15:22]: setting 	moistureceil	11484.82421875	
+[14:15:22]: setting 	isday	true	
+[14:15:22]: setting 	springlength	20	
+[14:15:22]: setting 	wetness	0	
+[14:15:22]: setting 	iscavedusk	false	
+[14:15:22]: setting 	isalterawake	false	
+[14:15:22]: setting 	isnightmarecalm	false	
+[14:15:22]: setting 	isnight	false	
+[14:15:22]: setting 	isdusk	false	
+[14:15:22]: setting 	isspring	false	
+[14:15:22]: setting 	isautumn	true	
+[14:15:22]: setting 	issnowing	false	
+[14:15:22]: setting 	iswaxingmoon	true	
+[14:15:22]: setting 	phase	day	
+[14:15:22]: setting 	snowlevel	0	
+[14:15:22]: setting 	issnowcovered	false	
+[14:15:22]: setting 	autumnlength	20	
+[14:15:22]: setting 	pop	0.41389032385613	
+[14:15:22]: setting 	nightmaretime	0	
+[14:15:22]: setting 	seasonprogress	0.4	
+[14:15:22]: setting 	moonphase	threequarter	
+[14:15:22]: setting 	nightmarephase	none	
+[14:15:22]: setting 	cycles	288	
+[14:15:22]: setting 	timeinphase	0.004121971130371	
+[14:15:22]: setting 	iscavenight	false	
+[14:15:22]: setting 	iscavenewmoon	false	
+[14:15:22]: setting 	issummer	false	
+[14:15:22]: setting 	temperature	33.717297328354	
+[14:15:22]: setting 	time	0.0020609855651855	
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:30]: Could not find anim build FROMNUM
+[14:15:32]: Reconstructing topology	
+[14:15:32]: 	...Sorting points	
+[14:15:32]: 	...Sorting edges	
+[14:15:32]: 	...Connecting nodes	
+[14:15:32]: 	...Validating connections	
+[14:15:32]: 	...Housekeeping	
+[14:15:32]: 	...Done!	
+[14:15:32]: Restoring user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000310	
+[14:15:32]: Restoring user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000310	
+[14:15:32]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311
+[14:15:32]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311
+[14:15:32]: 1 uploads added to server. From server_temp
+[14:15:32]: World 3921448560 is now connected	
+[14:15:32]: Telling Client our new session identifier: 84FECDB5A7FE0E46
+[14:15:32]: Check for write access: TRUE
+[14:15:32]: Check for read access: TRUE
+[14:15:32]: Available disk space for save files: 109140 MB
+[14:15:32]: ModIndex: Load sequence finished successfully.	
+[14:15:33]: Reset() returning
+[14:15:33]: [Shard] Secondary shard 'Caves(3921448560)' restarting...
+[14:15:33]: World 3921448560 is now disconnected	
+[14:15:34]: Validating portal[4] <-> 3921448560[4] (inactive)	
+[14:15:34]: Validating portal[10] <-> 3921448560[10] (inactive)	
+[14:15:34]: Validating portal[3] <-> 3921448560[3] (inactive)	
+[14:15:34]: Validating portal[5] <-> 3921448560[5] (inactive)	
+[14:15:34]: Validating portal[8] <-> 3921448560[8] (inactive)	
+[14:15:34]: Validating portal[9] <-> 3921448560[9] (inactive)	
+[14:15:34]: Validating portal[6] <-> 3921448560[6] (inactive)	
+[14:15:34]: Validating portal[1] <-> 3921448560[1] (inactive)	
+[14:15:34]: Validating portal[2] <-> 3921448560[2] (inactive)	
+[14:15:34]: Validating portal[7] <-> 3921448560[7] (inactive)	
+[14:15:34]: Sim paused
+[14:15:43]: Registering master server in Sing lobby
+[14:15:43]: Restarting player migration on master server
+[14:15:43]: [Shard] Read save location file for (KU__CRUc5lN)
+[14:15:43]: Resuming user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311
+[14:15:43]: Spawning player at: [Load] (-53.36, 0.00, -151.99)	
+[14:15:43]: Sim unpaused
+[14:15:47]: [Shard] Secondary Caves(3921448560) ready!
+[14:15:47]: World 3921448560 is now connected	
+[14:15:47]: Validating portal[4] <-> 3921448560[4] (active)	
+[14:15:47]: Validating portal[10] <-> 3921448560[10] (active)	
+[14:15:47]: Validating portal[3] <-> 3921448560[3] (disabled)	
+[14:15:47]: Validating portal[5] <-> 3921448560[5] (disabled)	
+[14:15:47]: Validating portal[8] <-> 3921448560[8] (active)	
+[14:15:47]: Validating portal[9] <-> 3921448560[9] (disabled)	
+[14:15:47]: Validating portal[6] <-> 3921448560[6] (active)	
+[14:15:47]: Validating portal[1] <-> 3921448560[1] (active)	
+[14:15:47]: Validating portal[2] <-> 3921448560[2] (active)	
+[14:15:47]: Validating portal[7] <-> 3921448560[7] (active)	
+[14:15:48]: Restarting player migration on master server
+[14:15:48]: [Shard] Read save location file for (KU_3_YqzVGF)
+[14:15:48]: Resuming user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311
+[14:15:48]: Spawning player at: [Load] (-48.59, 0.00, -152.31)	
+[14:15:53]: Registering master server in Sing lobby
+[14:23:42]: Registering master server in Sing lobby
+[14:23:43]: Available disk space for save files: 109140 MB
+[14:23:43]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000311
+[14:23:43]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000311
+[14:23:43]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo	
+[14:23:44]: Serializing world: session/84FECDB5A7FE0E46/0000000311
+[14:27:27]: KU_3_YqzVGF	running text command:	dance	true	
+[14:30:05]: [200] Account Communication Success (6)
+[14:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[14:31:44]: Available disk space for save files: 109134 MB
+[14:31:44]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000312
+[14:31:44]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000312
+[14:31:44]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo	
+[14:31:44]: Serializing world: session/84FECDB5A7FE0E46/0000000312
+[14:31:47]: Registering master server in Sing lobby
+[14:39:44]: Available disk space for save files: 109131 MB
+[14:39:45]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000313
+[14:39:45]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000313
+[14:39:45]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo	
+[14:39:45]: Serializing world: session/84FECDB5A7FE0E46/0000000313
+[14:39:52]: Registering master server in Sing lobby
+[14:47:44]: Registering master server in Sing lobby
+[14:47:45]: Available disk space for save files: 109127 MB
+[14:47:45]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000314
+[14:47:45]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000314
+[14:47:45]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo	
+[14:47:46]: Serializing world: session/84FECDB5A7FE0E46/0000000314
+[14:53:28]: Could not find anim [dismount] in bank [wilson]
+[14:53:38]: Deleting user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000315
+[14:53:38]: Resuming user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000315
+[14:53:44]: Registering master server in Sing lobby
+[14:55:45]: Registering master server in Sing lobby
+[14:55:45]: Available disk space for save files: 109124 MB
+[14:55:46]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000315
+[14:55:46]: Missing reference:	135601 - fruitfly	->	true	nil	
+[14:55:46]: Missing reference:	116902 - krampus_sack	->	102286	102286 - beefalo	
+[14:55:46]: Serializing world: session/84FECDB5A7FE0E46/0000000315
+[14:55:50]: Spawn request: waxwell from wayne930242
+[14:55:50]: Skin request: () (body_waxwell_vampire) (hand_shortgloves_black_scribble) (legs_wickerbottom_spiderwitch) (feet_formal_lowheel_black_scribble)
+[14:55:50]: Spawning player at: [Fixed] (142.00, 0.00, -430.00)	
+[14:55:50]: Enabling Spawn Protection for 	100026 - world	
+[14:55:50]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000316
+[14:55:55]: Registering master server in Sing lobby
+[14:57:22]: Could not find anim [dismount] in bank [wilson]
+[15:00:05]: [200] Account Communication Success (6)
+[15:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[15:00:05]: Could not find anim [dismount] in bank [wilson]
+[15:03:45]: Registering master server in Sing lobby
+[15:03:46]: Available disk space for save files: 109120 MB
+[15:03:46]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000316
+[15:03:46]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000316
+[15:03:47]: Serializing world: session/84FECDB5A7FE0E46/0000000316
+[15:05:39]: Could not find anim [dismount] in bank [wilson]
+[15:11:47]: Available disk space for save files: 109117 MB
+[15:11:47]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000317
+[15:11:47]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000317
+[15:11:47]: Serializing world: session/84FECDB5A7FE0E46/0000000317
+[15:11:50]: Registering master server in Sing lobby
+[15:12:24]: [P2P] Session request for '76561197987741825'
+[15:12:27]: [P2P] Create session: 146.155.49.43|1 '76561197987741825'
+[15:12:27]: [P2P] Received from 146.155.49.43|1 '76561197987741825'
+[15:12:27]: [P2P] Sent to 146.155.49.43|1 '76561197987741825'
+[15:12:28]: New incoming connection 146.155.49.43|1 <5977455196200515072>
+[15:12:28]: Client connected from 146.155.49.43|1 <5977455196200515072>
+[15:12:28]: ValidateGameSessionToken pgs-usc^KU_wwUugZDK^DontStarveTogether^FE7XdAbdlE/ykOk/Sk2sY9umgI6TPVH/PEAfYFkvNOw= for <5977455196200515072>
+[15:12:28]: Client authenticated: (KU_wwUugZDK) Shenyeh815
+[15:12:28]: [Steam] SendUserConnectAndAuthenticate for '76561197987741825'
+[15:12:29]: [Steam] Authenticated client '76561197987741825'
+[15:12:31]: There is no active event to validate against.
+[15:12:31]: [Shard] Read save location file for (KU_wwUugZDK)
+[15:12:31]: [Shard] Forwarding player to Caves(3921448560)
+[15:12:31]: [Shard] Begin migration #3 for (KU_wwUugZDK)
+[15:12:31]: [Shard] #3 [SHDMASTER](1) -> Caves(3921448560)
+[15:12:31]: Registering master server in Sing lobby
+[15:12:31]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[15:12:31]: [Steam] SendUserDisconnect for '76561197987741825'
+[15:12:31]: [Shard] (KU_wwUugZDK) disconnected from [SHDMASTER](1)
+[15:12:43]: [Shard] Completed migration #3 for player (KU_wwUugZDK)
+[15:12:52]: Could not find anim [dismount] in bank [wilson]
+[15:13:06]: Registering master server in Sing lobby
+[15:13:44]: Could not find anim [dismount] in bank [wilson]
+[15:14:39]: [Shard] Begin migration #4 for (KU_wwUugZDK)
+[15:14:39]: [Shard] #4 Caves(3921448560) -> [SHDMASTER](1)
+[15:14:39]: [Shard] #4 -> session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000318
+[15:14:39]: [Shard] Received migration #4 data for (KU_wwUugZDK)
+[15:14:39]: [Shard] Writing save location file for (KU_wwUugZDK)
+[15:14:39]: [Shard] (KU_wwUugZDK) disconnected from Caves(3921448560)
+[15:14:46]: [P2P] Received from 146.155.49.43|1 '76561197987741825'
+[15:14:46]: [P2P] Sent to 146.155.49.43|1 '76561197987741825'
+[15:14:47]: New incoming connection 146.155.49.43|1 <3814350924133194830>
+[15:14:47]: Client connected from 146.155.49.43|1 <3814350924133194830>
+[15:14:47]: ValidateGameSessionToken pgs-usc^KU_wwUugZDK^DontStarveTogether^aPbZiT9f937V127w6Y+upanf50bhbM28MYyjjeEFVKc= for <3814350924133194830>
+[15:14:48]: Client authenticated: (KU_wwUugZDK) Shenyeh815
+[15:14:48]: [Steam] SendUserConnectAndAuthenticate for '76561197987741825'
+[15:14:48]: [Steam] Authenticated client '76561197987741825'
+[15:14:48]: [Shard] Completed incoming migration #4 for (KU_wwUugZDK)
+[15:14:48]: [Shard] Completed migration #4 for player (KU_wwUugZDK)
+[15:14:58]: Resuming user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000318
+[15:14:58]: Player will spawn close to portal #7	
+[15:14:58]: Spawning player at: [Load] (-159.46, 0.00, -146.27)	
+[15:18:06]: Could not find anim [dismount] in bank [wilson]
+[15:19:47]: Available disk space for save files: 109113 MB
+[15:19:48]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000318
+[15:19:48]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000318
+[15:19:48]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000318
+[15:19:48]: Serializing world: session/84FECDB5A7FE0E46/0000000318
+[15:19:53]: Could not find anim [dismount] in bank [wilson]
+[15:19:56]: Registering master server in Sing lobby
+[15:20:30]: Could not find anim [dismount] in bank [wilson]
+[15:20:53]: Could not find anim [dismount] in bank [wilson]
+[15:23:32]: Could not find anim [dismount] in bank [wilson]
+[15:26:00]: Could not find anim [dismount] in bank [wilson]
+[15:27:47]: Registering master server in Sing lobby
+[15:27:48]: Could not find anim [dismount] in bank [wilson]
+[15:27:48]: Available disk space for save files: 109110 MB
+[15:27:49]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000319
+[15:27:49]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000319
+[15:27:49]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000319
+[15:27:49]: Serializing world: session/84FECDB5A7FE0E46/0000000319
+[15:28:23]: Could not find anim [dismount] in bank [wilson]
+[15:30:05]: [200] Account Communication Success (6)
+[15:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[15:35:49]: Available disk space for save files: 109107 MB
+[15:35:49]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000320
+[15:35:49]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000320
+[15:35:49]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000320
+[15:35:49]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo	
+[15:35:50]: Serializing world: session/84FECDB5A7FE0E46/0000000320
+[15:35:52]: Registering master server in Sing lobby
+[15:36:49]: [Steam] SendUserDisconnect for '76561198866343932'
+[15:36:49]: Connection lost to 146.155.49.41|1 <11144269737823946614>
+[15:36:49]: [Shard] (KU__CRUc5lN) disconnected from [SHDMASTER](1)
+[15:36:50]: Serializing user: session/84FECDB5A7FE0E46/A7NSORF9GMUN/0000000321
+[15:36:52]: Registering master server in Sing lobby
+[15:36:54]: [Steam] SendUserDisconnect for '76561198088240120'
+[15:36:54]: Connection lost to 146.155.49.42|1 <9118236489098095355>
+[15:36:54]: [Shard] (KU_3_YqzVGF) disconnected from [SHDMASTER](1)
+[15:36:54]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000321
+[15:37:02]: Registering master server in Sing lobby
+[15:37:44]: [P2P] Received from 146.155.49.42|1 '76561198088240120'
+[15:37:44]: [P2P] Sent to 146.155.49.42|1 '76561198088240120'
+[15:37:45]: New incoming connection 146.155.49.42|1 <2048411150186500583>
+[15:37:45]: Client connected from 146.155.49.42|1 <2048411150186500583>
+[15:37:45]: ValidateGameSessionToken pgs-usc^KU_3_YqzVGF^DontStarveTogether^xZH9IJpA0kXw8dJpYa/zf51wsRPNOHDRcD31uWA1zwg= for <2048411150186500583>
+[15:37:46]: Client authenticated: (KU_3_YqzVGF) wayne930242
+[15:37:46]: [Steam] Authenticated host '76561198088240120'
+[15:37:47]: There is no active event to validate against.
+[15:37:47]: [Shard] Read save location file for (KU_3_YqzVGF)
+[15:37:47]: Registering master server in Sing lobby
+[15:38:10]: Resuming user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000321
+[15:38:10]: Spawning player at: [Load] (-39.09, -0.00, -150.00)	
+[15:38:10]: Registering master server in Sing lobby
+[15:43:49]: Registering master server in Sing lobby
+[15:43:49]: Available disk space for save files: 109103 MB
+[15:43:50]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000321
+[15:43:50]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000321
+[15:43:50]: Serializing world: session/84FECDB5A7FE0E46/0000000321
+[15:43:52]: Could not find anim [dismount] in bank [wilson]
+[15:44:11]: Could not find anim [dismount] in bank [wilson]
+[15:44:38]: Could not find anim [dismount] in bank [wilson]
+[15:45:04]: Could not find anim [dismount] in bank [wilson]
+[15:45:19]: Could not find anim [dismount] in bank [wilson]
+[15:45:49]: Could not find anim [dismount] in bank [wilson]
+[15:46:10]: Could not find anim [dismount] in bank [wilson]
+[15:46:23]: Could not find anim [dismount] in bank [wilson]
+[15:46:40]: Could not find anim [dismount] in bank [wilson]
+[15:46:49]: [P2P] Session timed out for '76561198866343932'
+[15:46:49]: [P2P] Remove session: 146.155.49.41|1 '76561198866343932'
+[15:46:56]: Could not find anim [dismount] in bank [wilson]
+[15:47:10]: Could not find anim [dismount] in bank [wilson]
+[15:47:23]: Could not find anim [dismount] in bank [wilson]
+[15:47:39]: Could not find anim [dismount] in bank [wilson]
+[15:47:56]: Could not find anim [dismount] in bank [wilson]
+[15:48:12]: Could not find anim [dismount] in bank [wilson]
+[15:48:29]: Could not find anim [dismount] in bank [wilson]
+[15:48:48]: Could not find anim [dismount] in bank [wilson]
+[15:49:32]: Could not find anim [dismount] in bank [wilson]
+[15:49:46]: Could not find anim [dismount] in bank [wilson]
+[15:51:27]: Could not find anim [dismount] in bank [wilson]
+[15:51:38]: Could not find anim [dismount] in bank [wilson]
+[15:51:50]: Available disk space for save files: 109100 MB
+[15:51:50]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000322
+[15:51:50]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000322
+[15:51:51]: Serializing world: session/84FECDB5A7FE0E46/0000000322
+[15:51:54]: Registering master server in Sing lobby
+[15:52:34]: Could not find anim [dismount] in bank [wilson]
+[15:53:06]: Could not find anim [dismount] in bank [wilson]
+[15:53:54]: Could not find anim [dismount] in bank [wilson]
+[15:54:37]: Could not find anim [dismount] in bank [wilson]
+[15:55:32]: Could not find anim [dismount] in bank [wilson]
+[15:55:43]: Could not find anim [dismount] in bank [wilson]
+[15:57:23]: Could not find anim [dismount] in bank [wilson]
+[15:57:54]: Could not find anim [dismount] in bank [wilson]
+[15:58:26]: Could not find anim [dismount] in bank [wilson]
+[15:59:51]: Available disk space for save files: 109096 MB
+[15:59:51]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000323
+[15:59:51]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000323
+[15:59:51]: Serializing world: session/84FECDB5A7FE0E46/0000000323
+[15:59:59]: Registering master server in Sing lobby
+[16:00:05]: [200] Account Communication Success (6)
+[16:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[16:07:50]: Registering master server in Sing lobby
+[16:07:51]: Available disk space for save files: 109093 MB
+[16:07:52]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000324
+[16:07:52]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000324
+[16:07:52]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo	
+[16:07:52]: Serializing world: session/84FECDB5A7FE0E46/0000000324
+[16:13:45]: Could not find anim [dismount] in bank [wilson]
+[16:15:52]: Available disk space for save files: 109089 MB
+[16:15:52]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000325
+[16:15:52]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000325
+[16:15:53]: Serializing world: session/84FECDB5A7FE0E46/0000000325
+[16:15:56]: Registering master server in Sing lobby
+[16:15:57]: Could not find anim [spawn] in bank [squiderp]
+[16:15:57]: Could not find anim [spawn] in bank [squiderp]
+[16:15:58]: Could not find anim [spawn] in bank [squiderp]
+[16:19:05]: Could not find anim [dismount] in bank [wilson]
+[16:19:13]: Could not find anim [dismount] in bank [wilson]
+[16:19:51]: Could not find anim [dismount] in bank [wilson]
+[16:20:07]: Could not find anim [dismount] in bank [wilson]
+[16:20:33]: Could not find anim [dismount] in bank [wilson]
+[16:20:47]: Could not find anim [dismount] in bank [wilson]
+[16:21:04]: Could not find anim [dismount] in bank [wilson]
+[16:21:18]: Could not find anim [dismount] in bank [wilson]
+[16:21:34]: Could not find anim [dismount] in bank [wilson]
+[16:21:53]: Could not find anim [dismount] in bank [wilson]
+[16:22:08]: Could not find anim [dismount] in bank [wilson]
+[16:22:50]: Could not find anim [dismount] in bank [wilson]
+[16:23:03]: Could not find anim [dismount] in bank [wilson]
+[16:23:45]: Could not find anim [dismount] in bank [wilson]
+[16:23:53]: Available disk space for save files: 109086 MB
+[16:23:53]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000326
+[16:23:53]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000326
+[16:23:53]: Serializing world: session/84FECDB5A7FE0E46/0000000326
+[16:24:01]: Registering master server in Sing lobby
+[16:24:02]: Could not find anim [dismount] in bank [wilson]
+[16:24:24]: Could not find anim [dismount] in bank [wilson]
+[16:24:36]: Could not find anim [dismount] in bank [wilson]
+[16:26:25]: Could not find anim [dismount] in bank [wilson]
+[16:27:15]: Could not find anim [dismount] in bank [wilson]
+[16:28:43]: Could not find anim [dismount] in bank [wilson]
+[16:30:05]: [200] Account Communication Success (6)
+[16:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[16:31:41]: Could not find anim [dismount] in bank [wilson]
+[16:31:52]: Registering master server in Sing lobby
+[16:31:53]: Available disk space for save files: 109083 MB
+[16:31:54]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000327
+[16:31:54]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000327
+[16:31:54]: Serializing world: session/84FECDB5A7FE0E46/0000000327
+[16:32:09]: Could not find anim [dismount] in bank [wilson]
+[16:32:34]: Could not find anim [dismount] in bank [wilson]
+[16:32:47]: Could not find anim [dismount] in bank [wilson]
+[16:33:43]: Could not find anim [dismount] in bank [wilson]
+[16:34:06]: Could not find anim [dismount] in bank [wilson]
+[16:35:04]: Could not find anim [dismount] in bank [wilson]
+[16:39:54]: Available disk space for save files: 109079 MB
+[16:39:54]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000328
+[16:39:54]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000328
+[16:39:55]: Serializing world: session/84FECDB5A7FE0E46/0000000328
+[16:39:58]: Registering master server in Sing lobby
+[16:43:06]: Could not find anim [dismount] in bank [wilson]
+[16:43:52]: Could not find anim [dismount] in bank [wilson]
+[16:44:22]: Could not find anim [dismount] in bank [wilson]
+[16:45:30]: Could not find anim [dismount] in bank [wilson]
+[16:46:27]: Could not find anim [dismount] in bank [wilson]
+[16:46:34]: Could not find anim [dismount] in bank [wilson]
+[16:47:06]: Could not find anim [dismount] in bank [wilson]
+[16:47:55]: Available disk space for save files: 109076 MB
+[16:47:55]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000329
+[16:47:55]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000329
+[16:47:55]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo	
+[16:47:55]: Serializing world: session/84FECDB5A7FE0E46/0000000329
+[16:48:03]: Registering master server in Sing lobby
+[16:48:12]: Could not find anim [dismount] in bank [wilson]
+[16:51:34]: Could not find anim build FROMNUM
+[16:51:42]: Could not find anim build FROMNUM
+[16:51:47]: Could not find anim build FROMNUM
+[16:55:20]: Could not find anim [dismount] in bank [wilson]
+[16:55:54]: Registering master server in Sing lobby
+[16:55:55]: Available disk space for save files: 109072 MB
+[16:55:56]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000330
+[16:55:56]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000330
+[16:55:56]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo	
+[16:55:56]: Serializing world: session/84FECDB5A7FE0E46/0000000330
+[16:59:13]: Could not find anim [dismount] in bank [wilson]
+[16:59:38]: Could not find anim [dismount] in bank [wilson]
+[17:00:05]: [200] Account Communication Success (6)
+[17:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[17:01:51]: Could not find anim [dismount] in bank [wilson]
+[17:02:07]: Could not find anim [dismount] in bank [wilson]
+[17:03:56]: Available disk space for save files: 109069 MB
+[17:03:56]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000331
+[17:03:56]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000331
+[17:03:56]: Missing reference:	102284 - beef_bell	->	102286	102286 - beefalo(LIMBO)	
+[17:03:57]: Serializing world: session/84FECDB5A7FE0E46/0000000331
+[17:04:00]: Registering master server in Sing lobby
+[17:04:00]: Could not find anim [dismount] in bank [wilson]
+[17:06:04]: [(KU_wwUugZDK) Shenyeh815] ReceiveRemoteExecute(local player = UserToPlayer('KU_wwUugZDK') if player == nil then UserToPlayer("KU_wwUugZDK").components.talker:Say("

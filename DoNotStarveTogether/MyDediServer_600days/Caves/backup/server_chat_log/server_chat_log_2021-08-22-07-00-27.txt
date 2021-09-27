@@ -1,0 +1,37 @@
+[12:46:09]: [Join Announcement] Shenyeh815
+[12:48:44]: [Join Announcement] wayne930242
+[13:17:42]: [Join Announcement] tony791207xd
+[13:22:25]: [Skin Announcement] Shenyeh815 body_flannel_grey_silver
+[14:22:39]: [Skin Announcement] Shenyeh815 body_tweedvest_brown_chocolate
+[14:23:31]: [Skin Announcement] wayne930242 legs_wathgrithr_nature
+[14:38:34]: [Leave Announcement] wayne930242
+[14:47:16]: [Leave Announcement] Shenyeh815
+[14:48:24]: [Join Announcement] wayne930242
+[14:50:18]: [Join Announcement] Shenyeh815
+[14:59:02]: [Skin Announcement] tony791207xd body_polo_blue_denim
+[15:29:08]: [Skin Announcement] Shenyeh815 feet_willow_gladiator
+[16:08:38]: [Skin Announcement] wayne930242 feet_wes_magma
+[16:23:25]: [Skin Announcement] tony791207xd legs_jeans_navy_ocean
+[16:45:18]: [Skin Announcement] Shenyeh815 hand_wathgrithr_victorian
+[17:14:31]: [Leave Announcement] Shenyeh815
+[17:14:50]: [Leave Announcement] wayne930242
+[17:23:10]: [Join Announcement] wayne930242
+[17:38:53]: [Join Announcement] Shenyeh815
+[17:49:37]: [Skin Announcement] tony791207xd backpack_buckle_red_rook
+[17:51:45]: [Leave Announcement] Shenyeh815
+[17:54:14]: [Leave Announcement] wayne930242
+[17:55:48]: [Join Announcement] wayne930242
+[17:56:15]: [Skin Announcement] wayne930242 body_tshirt_orange_pumpkin
+[18:13:46]: [Join Announcement] Shenyeh815
+[18:16:25]: [Leave Announcement] wayne930242
+[18:25:42]: [Join Announcement] wayne930242
+[18:58:31]: [Skin Announcement] tony791207xd body_toga_white_pure
+[20:37:37]: [Leave Announcement] wayne930242
+[20:39:16]: [Join Announcement] wayne930242
+[20:44:09]: [Leave Announcement] Shenyeh815
+[20:46:54]: [Join Announcement] Shenyeh815
+[21:02:30]: [Leave Announcement] wayne930242
+[21:08:47]: [Join Announcement] wayne930242
+[21:22:15]: [Leave Announcement] wayne930242
+[21:22:19]: [Leave Announcement] tony791207xd
+[21:26:27]: [Leave Announcement] Shenyeh815

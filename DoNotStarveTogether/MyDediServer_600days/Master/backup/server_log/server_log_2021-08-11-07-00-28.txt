@@ -1,0 +1,602 @@
+[00:00:00]: PersistRootStorage is now /home/weihung/.klei//DoNotStarveTogether/MyDediServer/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 470691
+[00:00:00]: Current time: Tue Aug 10 07:00:28 2021
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: vultr.guest
+[00:00:00]: Release(Kernel) Version: 4.15.0-132-generic
+[00:00:00]: Kernel Build Timestamp: #136-Ubuntu SMP Tue Jan 12 14:58:42 UTC 2021
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 470691 LINUX
+[00:00:00]: Build Date: 7056
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4136414016)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:3.73
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: THREAD - started 'Ping Job Thread' (4070566720)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=60(0), D=0
+[00:00:00]: OnLoadPermissionList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: Token retrieved from: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: THREAD - started 'StreamInput' (4068465472)
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: SUCCESS: Loaded modoverrides.lua	
+[00:00:01]: modoverrides.lua enabling workshop-1207269058	
+[00:00:01]: modoverrides.lua enabling workshop-2477889104	
+[00:00:01]: modoverrides.lua enabling workshop-1111658995	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
+[00:00:01]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:01]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-2477889104_CLIENT	
+[00:00:01]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.1.0	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:01]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering Server mod namespace "workshop-1207269058"
+[00:00:02]: Registering Server mod namespace "workshop-1111658995"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: bloom_enabled	true	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:03]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:03]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[00:00:03]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:03]: 	Load FE	
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (4040465216)
+[00:00:04]: FilesExistAsyncThread started (17823 files)...
+[00:00:04]: 	Load FE: done	
+[00:00:04]: Check for write access: TRUE
+[00:00:04]: Check for read access: TRUE
+[00:00:04]: Available disk space for save files: 107952 MB
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[00:00:04]: Starting Dedicated Server Game	
+[00:00:04]: Network tick rate: U=60(0), D=0
+[00:00:04]: About to start a server with the following settings:
+[00:00:04]:   Dedicated: true
+[00:00:04]:   Online: true
+[00:00:04]:   Passworded: true
+[00:00:04]:   ServerPort: 10999
+[00:00:04]:   SteamAuthPort: 12345
+[00:00:04]:   SteamMasterServerPort: 12346
+[00:00:04]:   ClanID: false
+[00:00:04]:   ClanOnly: false
+[00:00:04]:   ClanAdmin: false
+[00:00:04]:   LanOnly: false
+[00:00:04]:   FriendsOnly: false
+[00:00:04]:   EnableAutosaver: true
+[00:00:04]:   EncodeUserPath: true
+[00:00:04]:   PVP: false
+[00:00:04]:   MaxPlayers: 8
+[00:00:04]:   GameMode: survival
+[00:00:04]:   OverridenDNS: 
+[00:00:04]:   PauseWhenEmpty: true
+[00:00:04]:   IdleTimeout: 1800s
+[00:00:04]:   VoteEnabled: true
+[00:00:04]:   InternetBroadcasting: true
+[00:00:04]:   Intent: cooperative
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:04]: Online Server Started on port: 10999
+[00:00:04]: SUCCESS: Loaded modoverrides.lua	
+[00:00:04]: Found a level data override file with these contents:	
+[00:00:04]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:00:04]: 	K: 	hideminimap	 V: 	false	
+[00:00:04]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:04]: 	K: 	location	 V: 	forest	
+[00:00:04]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:04]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:04]: 	K: 	name	 V: 	Standard Forest	
+[00:00:04]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:04]: 	K: 	override_level_string	 V: 	false	
+[00:00:04]: 	K: 	overrides	 V: 	table: 0xe53b040	
+[00:00:04]: 		K: 	alternatehunt	 V: 	default	
+[00:00:04]: 		K: 	angrybees	 V: 	default	
+[00:00:04]: 		K: 	antliontribute	 V: 	default	
+[00:00:04]: 		K: 	autumn	 V: 	default	
+[00:00:04]: 		K: 	bearger	 V: 	default	
+[00:00:04]: 		K: 	beefalo	 V: 	default	
+[00:00:04]: 		K: 	beefaloheat	 V: 	default	
+[00:00:04]: 		K: 	bees	 V: 	default	
+[00:00:04]: 		K: 	berrybush	 V: 	default	
+[00:00:04]: 		K: 	birds	 V: 	default	
+[00:00:04]: 		K: 	boons	 V: 	default	
+[00:00:04]: 		K: 	branching	 V: 	default	
+[00:00:04]: 		K: 	butterfly	 V: 	default	
+[00:00:04]: 		K: 	buzzard	 V: 	default	
+[00:00:04]: 		K: 	cactus	 V: 	default	
+[00:00:04]: 		K: 	carrot	 V: 	default	
+[00:00:04]: 		K: 	catcoon	 V: 	default	
+[00:00:04]: 		K: 	chess	 V: 	default	
+[00:00:04]: 		K: 	day	 V: 	default	
+[00:00:04]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:04]: 		K: 	deerclops	 V: 	default	
+[00:00:04]: 		K: 	disease_delay	 V: 	default	
+[00:00:04]: 		K: 	dragonfly	 V: 	default	
+[00:00:04]: 		K: 	flint	 V: 	default	
+[00:00:04]: 		K: 	flowers	 V: 	default	
+[00:00:04]: 		K: 	frograin	 V: 	default	
+[00:00:04]: 		K: 	goosemoose	 V: 	default	
+[00:00:04]: 		K: 	grass	 V: 	default	
+[00:00:04]: 		K: 	has_ocean	 V: 	true	
+[00:00:04]: 		K: 	houndmound	 V: 	default	
+[00:00:04]: 		K: 	hounds	 V: 	default	
+[00:00:04]: 		K: 	hunt	 V: 	default	
+[00:00:04]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:04]: 		K: 	krampus	 V: 	default	
+[00:00:04]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:04]: 		K: 	liefs	 V: 	default	
+[00:00:04]: 		K: 	lightning	 V: 	default	
+[00:00:04]: 		K: 	lightninggoat	 V: 	default	
+[00:00:04]: 		K: 	loop	 V: 	default	
+[00:00:04]: 		K: 	lureplants	 V: 	default	
+[00:00:04]: 		K: 	marshbush	 V: 	default	
+[00:00:04]: 		K: 	merm	 V: 	default	
+[00:00:04]: 		K: 	meteorshowers	 V: 	default	
+[00:00:04]: 		K: 	meteorspawner	 V: 	default	
+[00:00:04]: 		K: 	moles	 V: 	default	
+[00:00:04]: 		K: 	mushroom	 V: 	default	
+[00:00:04]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:04]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:04]: 		K: 	penguins	 V: 	default	
+[00:00:04]: 		K: 	perd	 V: 	default	
+[00:00:04]: 		K: 	petrification	 V: 	default	
+[00:00:04]: 		K: 	pigs	 V: 	default	
+[00:00:04]: 		K: 	ponds	 V: 	default	
+[00:00:04]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:04]: 		K: 	rabbits	 V: 	default	
+[00:00:04]: 		K: 	reeds	 V: 	default	
+[00:00:04]: 		K: 	regrowth	 V: 	default	
+[00:00:04]: 		K: 	roads	 V: 	default	
+[00:00:04]: 		K: 	rock	 V: 	default	
+[00:00:04]: 		K: 	rock_ice	 V: 	default	
+[00:00:04]: 		K: 	sapling	 V: 	default	
+[00:00:04]: 		K: 	season_start	 V: 	default	
+[00:00:04]: 		K: 	specialevent	 V: 	default	
+[00:00:04]: 		K: 	spiders	 V: 	default	
+[00:00:04]: 		K: 	spring	 V: 	default	
+[00:00:04]: 		K: 	start_location	 V: 	default	
+[00:00:04]: 		K: 	summer	 V: 	default	
+[00:00:04]: 		K: 	tallbirds	 V: 	default	
+[00:00:04]: 		K: 	task_set	 V: 	default	
+[00:00:04]: 		K: 	tentacles	 V: 	default	
+[00:00:04]: 		K: 	touchstone	 V: 	default	
+[00:00:04]: 		K: 	trees	 V: 	default	
+[00:00:04]: 		K: 	tumbleweed	 V: 	default	
+[00:00:04]: 		K: 	walrus	 V: 	default	
+[00:00:04]: 		K: 	weather	 V: 	default	
+[00:00:04]: 		K: 	wildfires	 V: 	default	
+[00:00:04]: 		K: 	winter	 V: 	default	
+[00:00:04]: 		K: 	world_size	 V: 	default	
+[00:00:04]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:04]: 	K: 	random_set_pieces	 V: 	table: 0xe53a870	
+[00:00:04]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:04]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:04]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:04]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:04]: 		K: 	5	 V: 	Chessy_1	
+[00:00:04]: 		K: 	6	 V: 	Chessy_2	
+[00:00:04]: 		K: 	7	 V: 	Chessy_3	
+[00:00:04]: 		K: 	8	 V: 	Chessy_4	
+[00:00:04]: 		K: 	9	 V: 	Chessy_5	
+[00:00:04]: 		K: 	10	 V: 	Chessy_6	
+[00:00:04]: 		K: 	11	 V: 	Maxwell1	
+[00:00:04]: 		K: 	12	 V: 	Maxwell2	
+[00:00:04]: 		K: 	13	 V: 	Maxwell3	
+[00:00:04]: 		K: 	14	 V: 	Maxwell4	
+[00:00:04]: 		K: 	15	 V: 	Maxwell6	
+[00:00:04]: 		K: 	16	 V: 	Maxwell7	
+[00:00:04]: 		K: 	17	 V: 	Warzone_1	
+[00:00:04]: 		K: 	18	 V: 	Warzone_2	
+[00:00:04]: 		K: 	19	 V: 	Warzone_3	
+[00:00:04]: 	K: 	required_prefabs	 V: 	table: 0xe533d10	
+[00:00:04]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:04]: 	K: 	required_setpieces	 V: 	table: 0xe535080	
+[00:00:04]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:04]: 		K: 	2	 V: 	Maxwell5	
+[00:00:04]: 	K: 	substitutes	 V: 	table: 0xe538ab0	
+[00:00:04]: 	K: 	version	 V: 	4	
+[00:00:04]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:04]: Overwriting savedata with level data file.	
+[00:00:04]: Not applying world gen overrides.	
+[00:00:04]: Collecting garbage...
+[00:00:05]: lua_gc took 0.07 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~cEventLeaderboardProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: FilesExistAsyncThread aborted.
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: lua_close took 0.08 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:05]:   taskgrouplist:	default	Together	
+[00:00:05]:   taskgrouplist:	classic	Classic	
+[00:00:05]:   taskgrouplist:	cave_default	Underground	
+[00:00:05]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:05]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:05]: running main.lua
+	
+[00:00:05]: loaded modindex	
+[00:00:05]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: modoverrides.lua enabling workshop-1207269058	
+[00:00:05]: modoverrides.lua enabling workshop-2477889104	
+[00:00:05]: modoverrides.lua enabling workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:05]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:05]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:05]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.1.0	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:05]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: Registering Server mod namespace "workshop-1207269058"
+[00:00:05]: Registering Server mod namespace "workshop-1111658995"
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Loading world: session/84FECDB5A7FE0E46/0000000336	
+[00:00:05]: Save file is at version 5.065	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:05]: 	Unload FE	
+[00:00:05]: 	Unload FE done	
+[00:00:06]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:06]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[00:00:06]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:06]: 	LOAD BE	
+[00:00:09]: Could not preload undefined prefab (alterguardian_spiketrail_fx)
+[00:00:10]: 	LOAD BE: done	
+[00:00:10]: Begin Session: 84FECDB5A7FE0E46
+[00:00:10]: saving to server_temp/server_save	
+[00:00:11]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:11]: Loading 17 new character(s)	
+[00:00:11]: Total 17 character(s) loaded	
+[00:00:12]: Loading Nav Grid	
+[00:00:12]: World generated on build 466644 with save version: 5.065, using seed: 1622907743	
+[00:00:12]: setting 	summerlength	15	
+[00:00:12]: setting 	cavemoonphase	threequarter	
+[00:00:12]: setting 	iscavefullmoon	false	
+[00:00:12]: setting 	isnightmaredawn	false	
+[00:00:12]: setting 	elapseddaysinseason	13	
+[00:00:12]: setting 	isfullmoon	false	
+[00:00:12]: setting 	moisture	1180.0837402344	
+[00:00:12]: setting 	cavephase	night	
+[00:00:12]: setting 	iscavewaxingmoon	false	
+[00:00:12]: setting 	isnightmarewild	false	
+[00:00:12]: setting 	nightmaretimeinphase	0	
+[00:00:12]: setting 	precipitationrate	0	
+[00:00:12]: setting 	iswet	false	
+[00:00:12]: setting 	isnewmoon	false	
+[00:00:12]: setting 	precipitation	none	
+[00:00:12]: setting 	israining	false	
+[00:00:12]: setting 	isnightmarewarn	false	
+[00:00:12]: setting 	iswinter	true	
+[00:00:12]: setting 	season	winter	
+[00:00:12]: setting 	remainingdaysinseason	2	
+[00:00:12]: setting 	winterlength	15	
+[00:00:12]: setting 	iscaveday	false	
+[00:00:12]: setting 	moistureceil	2207.6440429688	
+[00:00:12]: setting 	isday	false	
+[00:00:12]: setting 	springlength	20	
+[00:00:12]: setting 	wetness	0	
+[00:00:12]: setting 	iscavedusk	false	
+[00:00:12]: setting 	isalterawake	false	
+[00:00:12]: setting 	isnightmarecalm	false	
+[00:00:12]: setting 	isnight	true	
+[00:00:12]: setting 	isdusk	false	
+[00:00:12]: setting 	isspring	false	
+[00:00:12]: setting 	isautumn	false	
+[00:00:12]: setting 	issnowing	false	
+[00:00:12]: setting 	iswaxingmoon	false	
+[00:00:12]: setting 	phase	night	
+[00:00:12]: setting 	snowlevel	1	
+[00:00:12]: setting 	issnowcovered	true	
+[00:00:12]: setting 	autumnlength	20	
+[00:00:12]: setting 	pop	0.43987409671201	
+[00:00:12]: setting 	nightmaretime	0	
+[00:00:12]: setting 	seasonprogress	0.86666666666667	
+[00:00:12]: setting 	moonphase	threequarter	
+[00:00:12]: setting 	nightmarephase	none	
+[00:00:12]: setting 	cycles	313	
+[00:00:12]: setting 	timeinphase	0.19386835734049	
+[00:00:12]: setting 	iscavenight	true	
+[00:00:12]: setting 	iscavenewmoon	false	
+[00:00:12]: setting 	issummer	false	
+[00:00:12]: setting 	temperature	-11.306862335086	
+[00:00:12]: setting 	time	0.7480838616689	
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:17]: Could not find anim build FROMNUM
+[00:00:18]: Reconstructing topology	
+[00:00:18]: 	...Sorting points	
+[00:00:18]: 	...Sorting edges	
+[00:00:18]: 	...Connecting nodes	
+[00:00:18]: 	...Validating connections	
+[00:00:18]: 	...Housekeeping	
+[00:00:18]: 	...Done!	
+[00:00:18]: Truncating to snapshot #336...
+[00:00:18]:  - session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000337
+[00:00:18]:  - session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000337
+[00:00:18]:    2 file(s) removed
+[00:00:18]: Restoring user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000336	
+[00:00:18]: Restoring user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000336	
+[00:00:18]: Serializing user: session/84FECDB5A7FE0E46/A7GFV2QFBT0F/0000000337
+[00:00:18]: Serializing user: session/84FECDB5A7FE0E46/A7NBKUSAKCQK/0000000337
+[00:00:18]: 1 uploads added to server. From server_temp
+[00:00:18]: About to start a shard with these settings:
+[00:00:18]:   ShardName: [SHDMASTER]
+[00:00:18]:   ShardID: 1
+[00:00:18]:   ShardRole: MASTER
+[00:00:18]:   MasterHost: (null)
+[00:00:18]:   MasterBind: 127.0.0.1
+[00:00:18]:   MasterPort: 11001
+[00:00:18]: [Shard] Starting master server
+[00:00:18]: [Shard] Shard server started on port: 11001
+[00:00:18]: Telling Client our new session identifier: 84FECDB5A7FE0E46
+[00:00:18]: Check for write access: TRUE
+[00:00:18]: Check for read access: TRUE
+[00:00:18]: Available disk space for save files: 107952 MB
+[00:00:18]: ModIndex: Load sequence finished successfully.	
+[00:00:19]: Reset() returning
+[00:00:20]: Validating portal[3] <-> 3921448560[3] (inactive)	
+[00:00:20]: Validating portal[4] <-> 3921448560[4] (inactive)	
+[00:00:20]: Validating portal[5] <-> 3921448560[5] (inactive)	
+[00:00:20]: Validating portal[1] <-> 3921448560[1] (inactive)	
+[00:00:20]: Validating portal[10] <-> 3921448560[10] (inactive)	
+[00:00:20]: Validating portal[9] <-> 3921448560[9] (inactive)	
+[00:00:20]: Validating portal[2] <-> 3921448560[2] (inactive)	
+[00:00:20]: Validating portal[8] <-> 3921448560[8] (inactive)	
+[00:00:20]: Validating portal[6] <-> 3921448560[6] (inactive)	
+[00:00:20]: Validating portal[7] <-> 3921448560[7] (inactive)	
+[00:00:20]: Sim paused
+[00:00:22]: Best lobby region is aws/Sing (ping 79)
+[00:00:22]: Registering master server in Sing lobby
+[00:00:23]: [Shard] Secondary shar Caves(3921448560) connected: [LAN] 127.0.0.1
+[00:00:23]: [Shard] Secondary Caves(3921448560) ready!
+[00:00:23]: World 3921448560 is now connected	
+[00:00:23]: Validating portal[3] <-> 3921448560[3] (disabled)	
+[00:00:23]: Validating portal[4] <-> 3921448560[4] (active)	
+[00:00:23]: Validating portal[5] <-> 3921448560[5] (disabled)	
+[00:00:23]: Validating portal[1] <-> 3921448560[1] (active)	
+[00:00:23]: Validating portal[10] <-> 3921448560[10] (active)	
+[00:00:23]: Validating portal[9] <-> 3921448560[9] (disabled)	
+[00:00:23]: Validating portal[2] <-> 3921448560[2] (active)	
+[00:00:23]: Validating portal[8] <-> 3921448560[8] (active)	
+[00:00:23]: Validating portal[6] <-> 3921448560[6] (active)	
+[00:00:23]: Validating portal[7] <-> 3921448560[7] (active)	
+[00:00:32]: Registering master server in Sing lobby
+[00:30:05]: [200] Account Communication Success (6)
+[00:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[01:00:04]: [200] Account Communication Success (6)
+[01:00:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[01:30:05]: [200] Account Communication Success (6)
+[01:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[02:00:04]: [200] Account Communication Success (6)
+[02:00:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[02:30:05]: [200] Account Communication Success (6)
+[02:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[03:00:05]: [200] Account Communication Success (6)
+[03:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[03:30:04]: [200] Account Communication Success (6)
+[03:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[04:00:05]: [200] Account Communication Success (6)
+[04:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[04:30:05]: [200] Account Communication Success (6)
+[04:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[05:00:05]: [200] Account Communication Success (6)
+[05:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[05:30:04]: [200] Account Communication Success (6)
+[05:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[06:00:05]: [200] Account Communication Success (6)
+[06:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[06:30:04]: [200] Account Communication Success (6)
+[06:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[07:00:05]: [200] Account Communication Success (6)
+[07:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[07:30:05]: [200] Account Communication Success (6)
+[07:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[08:00:04]: [200] Account Communication Success (6)
+[08:00:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[08:30:04]: [200] Account Communication Success (6)
+[08:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[09:00:05]: [200] Account Communication Success (6)
+[09:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[09:30:05]: [200] Account Communication Success (6)
+[09:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[10:00:05]: [200] Account Communication Success (6)
+[10:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[10:30:05]: [200] Account Communication Success (6)
+[10:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[11:00:05]: [200] Account Communication Success (6)
+[11:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[11:30:05]: [200] Account Communication Success (6)
+[11:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[12:00:04]: [200] Account Communication Success (6)
+[12:00:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[12:30:05]: [200] Account Communication Success (6)
+[12:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[13:00:05]: [200] Account Communication Success (6)
+[13:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[13:30:05]: [200] Account Communication Success (6)
+[13:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[14:00:05]: [200] Account Communication Success (6)
+[14:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[14:30:05]: [200] Account Communication Success (6)
+[14:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[15:00:05]: [200] Account Communication Success (6)
+[15:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[15:30:05]: [200] Account Communication Success (6)
+[15:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[16:00:05]: [200] Account Communication Success (6)
+[16:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[16:30:05]: [200] Account Communication Success (6)
+[16:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[17:00:05]: [200] Account Communication Success (6)
+[17:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[17:30:05]: [200] Account Communication Success (6)
+[17:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[18:00:05]: [200] Account Communication Success (6)
+[18:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[18:30:05]: [200] Account Communication Success (6)
+[18:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[18:55:18]: Registering master server in Sing lobby
+[18:56:38]: Failed to log on to Steam, workshop functionality will be disabled.
+[18:56:48]: Registering master server in Sing lobby
+[19:00:05]: [200] Account Communication Success (6)
+[19:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[19:30:05]: [200] Account Communication Success (6)
+[19:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[20:00:05]: [200] Account Communication Success (6)
+[20:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[20:30:05]: [200] Account Communication Success (6)
+[20:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[21:00:05]: [200] Account Communication Success (6)
+[21:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[21:30:05]: [200] Account Communication Success (6)
+[21:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[22:00:05]: [200] Account Communication Success (6)
+[22:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[22:30:05]: [200] Account Communication Success (6)
+[22:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[23:00:05]: [200] Account Communication Success (6)
+[23:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[23:30:05]: [200] Account Communication Success (6)
+[23:30:05]: Received (KU_3_YqzVGF) from TokenPurpose

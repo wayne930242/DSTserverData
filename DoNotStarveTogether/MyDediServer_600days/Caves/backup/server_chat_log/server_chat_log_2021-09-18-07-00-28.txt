@@ -1,0 +1,16 @@
+[01:13:06]: [Join Announcement] Shirley
+[01:19:00]: [Join Announcement] tony791207xd
+[01:21:17]: [Leave Announcement] tony791207xd
+[01:21:32]: [Leave Announcement] Shirley
+[01:23:54]: [Join Announcement] wayne930242
+[01:24:17]: [Vote Announcement] rollback passed
+[01:24:58]: [Vote Announcement] rollback passed
+[01:27:09]: [Join Announcement] Shirley
+[01:46:18]: [Leave Announcement] wayne930242
+[01:47:26]: [Leave Announcement] tony791207xd
+[01:47:55]: [Join Announcement] wayne930242
+[01:48:20]: [Join Announcement] tony791207xd
+[01:49:43]: [Leave Announcement] tony791207xd
+[01:50:50]: [Leave Announcement] wayne930242
+[01:51:50]: [Join Announcement] wayne930242
+[01:57:28]: [Join Announcement] 

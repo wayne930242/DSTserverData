@@ -1,0 +1,14 @@
+[00:07:57]: [Join Announcement] Shenyeh815
+[00:09:21]: [Join Announcement] tony791207xd
+[00:10:31]: [Join Announcement] wayne930242
+[00:56:13]: [Death Announcement] wayne930242 was killed by Pig Man. He became a spooky ghost!
+[00:57:19]: [Resurrect Announcement] wayne930242 was resurrected by Life Giving Amulet.
+[01:43:25]: [Death Announcement] wayne930242 was killed by Spider Queen. She became a spooky ghost!
+[01:43:42]: [Death Announcement] tony791207xd was killed by Spider Queen. She became a spooky ghost!
+[01:44:13]: [Resurrect Announcement] wayne930242 was resurrected by Life Giving Amulet.
+[01:44:48]: [Resurrect Announcement] tony791207xd was resurrected by Life Giving Amulet.
+[01:49:18]: [Leave Announcement] wayne930242
+[01:50:16]: [Join Announcement] wayne930242
+[02:04:09]: [Leave Announcement] tony791207xd
+[02:09:27]: [Leave Announcement] Shenyeh815
+[02:09:46]: [Leave Announcement] wayne930242

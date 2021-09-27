@@ -1,0 +1,1498 @@
+[00:00:00]: PersistRootStorage is now /home/weihung/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 478900
+[00:00:00]: Current time: Mon Sep 20 07:00:27 2021
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: vultr.guest
+[00:00:00]: Release(Kernel) Version: 4.15.0-132-generic
+[00:00:00]: Kernel Build Timestamp: #136-Ubuntu SMP Tue Jan 12 14:58:42 UTC 2021
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 478900 LINUX
+[00:00:00]: Build Date: 7248
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -shard Caves 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4136794944)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 12348)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:3.19
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (4067416896)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=60(0), D=0
+[00:00:01]: OnLoadPermissionList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Success)
+[00:00:01]: OnLoadUserIdList: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:01]: Token retrieved from: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:01]: Token retrieved from: /home/weihung/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:01]: THREAD - started 'StreamInput' (4065315648)
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x32
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: SUCCESS: Loaded modoverrides.lua	
+[00:00:01]: modoverrides.lua enabling workshop-1207269058	
+[00:00:01]: modoverrides.lua enabling workshop-2477889104	
+[00:00:01]: modoverrides.lua enabling workshop-1111658995	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
+[00:00:01]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:01]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-2477889104_CLIENT	
+[00:00:01]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.2.0	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:01]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering Server mod namespace "workshop-1207269058"
+[00:00:02]: Registering Server mod namespace "workshop-1111658995"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: bloom_enabled	true	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:03]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:03]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[00:00:03]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:03]: 	Load FE	
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (4040018752)
+[00:00:04]: FilesExistAsyncThread started (18458 files)...
+[00:00:04]: 	Load FE: done	
+[00:00:04]: Check for write access: TRUE
+[00:00:04]: Check for read access: TRUE
+[00:00:04]: Available disk space for save files: 106751 MB
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: ... FilesExistAsyncThread complete
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[00:00:04]: Starting Dedicated Server Game	
+[00:00:04]: Network tick rate: U=60(0), D=0
+[00:00:04]: About to start a server with the following settings:
+[00:00:04]:   Dedicated: true
+[00:00:04]:   Online: true
+[00:00:04]:   Passworded: true
+[00:00:04]:   ServerPort: 11000
+[00:00:04]:   SteamAuthPort: 12347
+[00:00:04]:   SteamMasterServerPort: 12348
+[00:00:04]:   ClanID: false
+[00:00:04]:   ClanOnly: false
+[00:00:04]:   ClanAdmin: false
+[00:00:04]:   LanOnly: false
+[00:00:04]:   FriendsOnly: false
+[00:00:04]:   EnableAutosaver: true
+[00:00:04]:   EncodeUserPath: true
+[00:00:04]:   PVP: false
+[00:00:04]:   MaxPlayers: 8
+[00:00:04]:   GameMode: survival
+[00:00:04]:   OverridenDNS: 
+[00:00:04]:   PauseWhenEmpty: true
+[00:00:04]:   IdleTimeout: 1800s
+[00:00:04]:   VoteEnabled: true
+[00:00:04]:   InternetBroadcasting: true
+[00:00:04]:   Intent: cooperative
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:04]: Online Server Started on port: 11000
+[00:00:04]: SUCCESS: Loaded modoverrides.lua	
+[00:00:04]: Found a level data override file with these contents:	
+[00:00:04]: 	K: 	background_node_range	 V: 	table: 0xd7523b0	
+[00:00:04]: 		K: 	1	 V: 	0	
+[00:00:04]: 		K: 	2	 V: 	1	
+[00:00:04]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:00:04]: 	K: 	hideminimap	 V: 	false	
+[00:00:04]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:04]: 	K: 	location	 V: 	cave	
+[00:00:04]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:04]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:04]: 	K: 	name	 V: 	The Caves	
+[00:00:04]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:04]: 	K: 	override_level_string	 V: 	false	
+[00:00:04]: 	K: 	overrides	 V: 	table: 0xd751450	
+[00:00:04]: 		K: 	banana	 V: 	default	
+[00:00:04]: 		K: 	bats	 V: 	default	
+[00:00:04]: 		K: 	berrybush	 V: 	default	
+[00:00:04]: 		K: 	boons	 V: 	default	
+[00:00:04]: 		K: 	branching	 V: 	default	
+[00:00:04]: 		K: 	bunnymen	 V: 	default	
+[00:00:04]: 		K: 	cave_ponds	 V: 	default	
+[00:00:04]: 		K: 	cave_spiders	 V: 	default	
+[00:00:04]: 		K: 	cavelight	 V: 	default	
+[00:00:04]: 		K: 	chess	 V: 	default	
+[00:00:04]: 		K: 	disease_delay	 V: 	default	
+[00:00:04]: 		K: 	earthquakes	 V: 	default	
+[00:00:04]: 		K: 	fern	 V: 	default	
+[00:00:04]: 		K: 	fissure	 V: 	default	
+[00:00:04]: 		K: 	flint	 V: 	default	
+[00:00:04]: 		K: 	flower_cave	 V: 	default	
+[00:00:04]: 		K: 	grass	 V: 	default	
+[00:00:04]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:04]: 		K: 	lichen	 V: 	default	
+[00:00:04]: 		K: 	liefs	 V: 	default	
+[00:00:04]: 		K: 	loop	 V: 	default	
+[00:00:04]: 		K: 	marshbush	 V: 	default	
+[00:00:04]: 		K: 	monkey	 V: 	default	
+[00:00:04]: 		K: 	mushroom	 V: 	default	
+[00:00:04]: 		K: 	mushtree	 V: 	default	
+[00:00:04]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:04]: 		K: 	reeds	 V: 	default	
+[00:00:04]: 		K: 	regrowth	 V: 	default	
+[00:00:04]: 		K: 	roads	 V: 	never	
+[00:00:04]: 		K: 	rock	 V: 	default	
+[00:00:04]: 		K: 	rocky	 V: 	default	
+[00:00:04]: 		K: 	sapling	 V: 	default	
+[00:00:04]: 		K: 	season_start	 V: 	default	
+[00:00:04]: 		K: 	slurper	 V: 	default	
+[00:00:04]: 		K: 	slurtles	 V: 	default	
+[00:00:04]: 		K: 	start_location	 V: 	caves	
+[00:00:04]: 		K: 	task_set	 V: 	cave_default	
+[00:00:04]: 		K: 	tentacles	 V: 	default	
+[00:00:04]: 		K: 	touchstone	 V: 	default	
+[00:00:04]: 		K: 	trees	 V: 	default	
+[00:00:04]: 		K: 	weather	 V: 	default	
+[00:00:04]: 		K: 	world_size	 V: 	default	
+[00:00:04]: 		K: 	wormattacks	 V: 	default	
+[00:00:04]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:04]: 		K: 	wormlights	 V: 	default	
+[00:00:04]: 		K: 	worms	 V: 	default	
+[00:00:04]: 	K: 	required_prefabs	 V: 	table: 0xd7509a0	
+[00:00:04]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:04]: 	K: 	substitutes	 V: 	table: 0xd750880	
+[00:00:04]: 	K: 	version	 V: 	4	
+[00:00:04]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:04]: Overwriting savedata with level data file.	
+[00:00:04]: Not applying world gen overrides.	
+[00:00:04]: Collecting garbage...
+[00:00:05]: lua_gc took 0.06 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~cEventLeaderboardProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: lua_close took 0.07 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: AppVersion::GetArchitecture() x32
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:05]:   taskgrouplist:	default	Together	
+[00:00:05]:   taskgrouplist:	classic	Classic	
+[00:00:05]:   taskgrouplist:	cave_default	Underground	
+[00:00:05]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:05]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:05]: running main.lua
+	
+[00:00:05]: loaded modindex	
+[00:00:05]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: modoverrides.lua enabling workshop-1207269058	
+[00:00:05]: modoverrides.lua enabling workshop-2477889104	
+[00:00:05]: modoverrides.lua enabling workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:05]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:05]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:05]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.2.0	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:05]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: Registering Server mod namespace "workshop-1207269058"
+[00:00:05]: Registering Server mod namespace "workshop-1111658995"
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Loading world: session/42EE12C8A7EDCBA0/0000000663	
+[00:00:05]: Save file is at version 5.08	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:05]: 	Unload FE	
+[00:00:05]: 	Unload FE done	
+[00:00:06]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:06]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[00:00:06]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:06]: 	LOAD BE	
+[00:00:11]: 	LOAD BE: done	
+[00:00:11]: Begin Session: 42EE12C8A7EDCBA0
+[00:00:11]: saving to server_temp/server_save	
+[00:00:11]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:11]: Loading 18 new character(s)	
+[00:00:12]: Total 18 character(s) loaded	
+[00:00:15]: Loading Nav Grid	
+[00:00:15]: World generated on build 466644 with save version: 5.065, using seed: 1622907742	
+[00:00:15]: setting 	summerlength	15	
+[00:00:15]: setting 	cavemoonphase	threequarter	
+[00:00:15]: setting 	iscavefullmoon	false	
+[00:00:15]: setting 	isnightmaredawn	false	
+[00:00:15]: setting 	elapseddaysinseason	2	
+[00:00:15]: setting 	isfullmoon	false	
+[00:00:15]: setting 	moisture	2928.3720703125	
+[00:00:15]: setting 	cavephase	day	
+[00:00:15]: setting 	iscavewaxingmoon	true	
+[00:00:15]: setting 	isnightmarewild	false	
+[00:00:15]: setting 	nightmaretimeinphase	0.78501552203345	
+[00:00:15]: setting 	precipitationrate	0	
+[00:00:15]: setting 	iswet	false	
+[00:00:15]: setting 	isnewmoon	false	
+[00:00:15]: setting 	precipitation	none	
+[00:00:15]: setting 	israining	false	
+[00:00:15]: setting 	isnightmarewarn	true	
+[00:00:15]: setting 	iswinter	false	
+[00:00:15]: setting 	season	autumn	
+[00:00:15]: setting 	remainingdaysinseason	18	
+[00:00:15]: setting 	winterlength	15	
+[00:00:15]: setting 	iscaveday	true	
+[00:00:15]: setting 	moistureceil	7866.1977539062	
+[00:00:15]: setting 	isday	false	
+[00:00:15]: setting 	springlength	20	
+[00:00:15]: setting 	wetness	0	
+[00:00:15]: setting 	iscavedusk	false	
+[00:00:15]: setting 	isalterawake	false	
+[00:00:15]: setting 	isnightmarecalm	false	
+[00:00:15]: setting 	isnight	true	
+[00:00:15]: setting 	isdusk	false	
+[00:00:15]: setting 	isspring	false	
+[00:00:15]: setting 	isautumn	true	
+[00:00:15]: setting 	issnowing	false	
+[00:00:15]: setting 	iswaxingmoon	true	
+[00:00:15]: setting 	phase	night	
+[00:00:15]: setting 	snowlevel	0	
+[00:00:15]: setting 	issnowcovered	false	
+[00:00:15]: setting 	autumnlength	20	
+[00:00:15]: setting 	pop	0.3481333754942	
+[00:00:15]: setting 	nightmaretime	430.65139698301	
+[00:00:15]: setting 	seasonprogress	0.1	
+[00:00:15]: setting 	moonphase	new	
+[00:00:15]: setting 	nightmarephase	warn	
+[00:00:15]: setting 	cycles	628	
+[00:00:15]: setting 	timeinphase	0.93820410834418	
+[00:00:15]: setting 	iscavenight	false	
+[00:00:15]: setting 	iscavenewmoon	false	
+[00:00:15]: setting 	issummer	false	
+[00:00:15]: setting 	temperature	31.275018477301	
+[00:00:15]: setting 	time	0.5277398109436	
+[00:00:15]: [Shard] Secondary shard is waiting for LUA...
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:18]: Could not find anim build FROMNUM
+[00:00:20]: SWITCHING 	false	
+[00:00:20]: Reconstructing topology	
+[00:00:20]: 	...Sorting points	
+[00:00:20]: 	...Sorting edges	
+[00:00:20]: 	...Connecting nodes	
+[00:00:20]: 	...Validating connections	
+[00:00:20]: 	...Housekeeping	
+[00:00:20]: 	...Done!	
+[00:00:20]: 1 uploads added to server. From server_temp
+[00:00:20]: About to start a shard with these settings:
+[00:00:20]:   ShardName: Caves
+[00:00:20]:   ShardID: 3921448560
+[00:00:20]:   ShardRole: SECONDARY
+[00:00:20]:   MasterHost: 127.0.0.1
+[00:00:20]:   MasterBind: (null)
+[00:00:20]:   MasterPort: 11001
+[00:00:20]: [Shard] Connecting to master...
+[00:00:20]: Telling Client our new session identifier: 42EE12C8A7EDCBA0
+[00:00:20]: Check for write access: TRUE
+[00:00:20]: Check for read access: TRUE
+[00:00:20]: Available disk space for save files: 106761 MB
+[00:00:20]: ModIndex: Load sequence finished successfully.	
+[00:00:20]: Reset() returning
+[00:00:20]: [Shard] Sending secondary shard information to master...
+[00:00:21]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:21]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:21]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:21]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:21]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:21]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:21]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:21]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:21]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:21]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:27]: Overriding region to Sing
+[00:00:27]: Registering secondary shard in Sing lobby
+[00:00:28]: [Shard] secondary shard is now ready!
+[00:00:28]: World 1 is now connected	
+[00:00:28]: Validating portal[7] <-> 1[7] (active)	
+[00:00:28]: Validating portal[3] <-> 1[3] (active)	
+[00:00:28]: Validating portal[8] <-> 1[8] (active)	
+[00:00:28]: Validating portal[1] <-> 1[1] (active)	
+[00:00:28]: Validating portal[9] <-> 1[9] (active)	
+[00:00:28]: Validating portal[6] <-> 1[6] (active)	
+[00:00:28]: Validating portal[5] <-> 1[5] (active)	
+[00:00:28]: Validating portal[4] <-> 1[4] (active)	
+[00:00:28]: Validating portal[10] <-> 1[10] (active)	
+[00:00:28]: Validating portal[2] <-> 1[2] (active)	
+[00:00:29]: [Shard] secondary shard LUA is now ready!
+[00:00:29]: Sim paused
+[00:05:27]: Registering secondary shard in Sing lobby
+[00:10:27]: Registering secondary shard in Sing lobby
+[00:15:27]: Registering secondary shard in Sing lobby
+[00:20:27]: Registering secondary shard in Sing lobby
+[00:25:27]: Registering secondary shard in Sing lobby
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[00:30:27]: Registering secondary shard in Sing lobby
+[00:35:27]: Registering secondary shard in Sing lobby
+[00:40:27]: Registering secondary shard in Sing lobby
+[00:45:27]: Registering secondary shard in Sing lobby
+[00:50:27]: Registering secondary shard in Sing lobby
+[00:55:27]: Registering secondary shard in Sing lobby
+[01:00:05]: [200] Account Communication Success (6)
+[01:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[01:00:27]: Registering secondary shard in Sing lobby
+[01:05:27]: Registering secondary shard in Sing lobby
+[01:10:27]: Registering secondary shard in Sing lobby
+[01:15:27]: Registering secondary shard in Sing lobby
+[01:20:27]: Registering secondary shard in Sing lobby
+[01:25:27]: Registering secondary shard in Sing lobby
+[01:30:05]: [200] Account Communication Success (6)
+[01:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[01:30:27]: Registering secondary shard in Sing lobby
+[01:35:27]: Registering secondary shard in Sing lobby
+[01:40:27]: Registering secondary shard in Sing lobby
+[01:45:27]: Registering secondary shard in Sing lobby
+[01:50:27]: Registering secondary shard in Sing lobby
+[01:55:27]: Registering secondary shard in Sing lobby
+[02:00:05]: [200] Account Communication Success (6)
+[02:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[02:00:27]: Registering secondary shard in Sing lobby
+[02:05:27]: Registering secondary shard in Sing lobby
+[02:10:27]: Registering secondary shard in Sing lobby
+[02:15:27]: Registering secondary shard in Sing lobby
+[02:20:27]: Registering secondary shard in Sing lobby
+[02:25:27]: Registering secondary shard in Sing lobby
+[02:30:05]: [200] Account Communication Success (6)
+[02:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[02:30:27]: Registering secondary shard in Sing lobby
+[02:35:27]: Registering secondary shard in Sing lobby
+[02:40:27]: Registering secondary shard in Sing lobby
+[02:45:28]: Registering secondary shard in Sing lobby
+[02:50:28]: Registering secondary shard in Sing lobby
+[02:55:28]: Registering secondary shard in Sing lobby
+[03:00:05]: [200] Account Communication Success (6)
+[03:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[03:00:28]: Registering secondary shard in Sing lobby
+[03:05:28]: Registering secondary shard in Sing lobby
+[03:10:28]: Registering secondary shard in Sing lobby
+[03:15:28]: Registering secondary shard in Sing lobby
+[03:20:28]: Registering secondary shard in Sing lobby
+[03:25:28]: Registering secondary shard in Sing lobby
+[03:30:04]: [200] Account Communication Success (6)
+[03:30:04]: Received (KU_3_YqzVGF) from TokenPurpose
+[03:30:28]: Registering secondary shard in Sing lobby
+[03:35:28]: Registering secondary shard in Sing lobby
+[03:40:28]: Registering secondary shard in Sing lobby
+[03:45:28]: Registering secondary shard in Sing lobby
+[03:50:28]: Registering secondary shard in Sing lobby
+[03:55:28]: Registering secondary shard in Sing lobby
+[04:00:05]: [200] Account Communication Success (6)
+[04:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[04:00:28]: Registering secondary shard in Sing lobby
+[04:05:28]: Registering secondary shard in Sing lobby
+[04:10:28]: Registering secondary shard in Sing lobby
+[04:15:28]: Registering secondary shard in Sing lobby
+[04:20:28]: Registering secondary shard in Sing lobby
+[04:25:28]: Registering secondary shard in Sing lobby
+[04:30:05]: [200] Account Communication Success (6)
+[04:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[04:30:28]: Registering secondary shard in Sing lobby
+[04:35:28]: Registering secondary shard in Sing lobby
+[04:40:28]: Registering secondary shard in Sing lobby
+[04:45:28]: Registering secondary shard in Sing lobby
+[04:50:28]: Registering secondary shard in Sing lobby
+[04:55:28]: Registering secondary shard in Sing lobby
+[05:00:05]: [200] Account Communication Success (6)
+[05:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[05:00:28]: Registering secondary shard in Sing lobby
+[05:05:28]: Registering secondary shard in Sing lobby
+[05:10:28]: Registering secondary shard in Sing lobby
+[05:15:28]: Registering secondary shard in Sing lobby
+[05:20:28]: Registering secondary shard in Sing lobby
+[05:25:28]: Registering secondary shard in Sing lobby
+[05:30:05]: [200] Account Communication Success (6)
+[05:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[05:30:28]: Registering secondary shard in Sing lobby
+[05:35:28]: Registering secondary shard in Sing lobby
+[05:40:28]: Registering secondary shard in Sing lobby
+[05:45:28]: Registering secondary shard in Sing lobby
+[05:50:28]: Registering secondary shard in Sing lobby
+[05:55:28]: Registering secondary shard in Sing lobby
+[06:00:05]: [200] Account Communication Success (6)
+[06:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[06:00:28]: Registering secondary shard in Sing lobby
+[06:05:28]: Registering secondary shard in Sing lobby
+[06:10:28]: Registering secondary shard in Sing lobby
+[06:15:28]: Registering secondary shard in Sing lobby
+[06:20:28]: Registering secondary shard in Sing lobby
+[06:25:28]: Registering secondary shard in Sing lobby
+[06:30:05]: [200] Account Communication Success (6)
+[06:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[06:30:28]: Registering secondary shard in Sing lobby
+[06:35:28]: Registering secondary shard in Sing lobby
+[06:40:28]: Registering secondary shard in Sing lobby
+[06:45:28]: Registering secondary shard in Sing lobby
+[06:50:28]: Registering secondary shard in Sing lobby
+[06:55:28]: Registering secondary shard in Sing lobby
+[07:00:05]: [200] Account Communication Success (6)
+[07:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[07:00:28]: Registering secondary shard in Sing lobby
+[07:05:28]: Registering secondary shard in Sing lobby
+[07:10:28]: Registering secondary shard in Sing lobby
+[07:15:28]: Registering secondary shard in Sing lobby
+[07:20:28]: Registering secondary shard in Sing lobby
+[07:25:28]: Registering secondary shard in Sing lobby
+[07:30:05]: [200] Account Communication Success (6)
+[07:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[07:30:28]: Registering secondary shard in Sing lobby
+[07:35:28]: Registering secondary shard in Sing lobby
+[07:40:28]: Registering secondary shard in Sing lobby
+[07:45:28]: Registering secondary shard in Sing lobby
+[07:50:28]: Registering secondary shard in Sing lobby
+[07:55:28]: Registering secondary shard in Sing lobby
+[08:00:05]: [200] Account Communication Success (6)
+[08:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[08:00:28]: Registering secondary shard in Sing lobby
+[08:05:28]: Registering secondary shard in Sing lobby
+[08:10:28]: Registering secondary shard in Sing lobby
+[08:15:28]: Registering secondary shard in Sing lobby
+[08:20:28]: Registering secondary shard in Sing lobby
+[08:25:28]: Registering secondary shard in Sing lobby
+[08:30:05]: [200] Account Communication Success (6)
+[08:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[08:30:28]: Registering secondary shard in Sing lobby
+[08:35:28]: Registering secondary shard in Sing lobby
+[08:40:28]: Registering secondary shard in Sing lobby
+[08:45:28]: Registering secondary shard in Sing lobby
+[08:50:28]: Registering secondary shard in Sing lobby
+[08:55:28]: Registering secondary shard in Sing lobby
+[09:00:05]: [200] Account Communication Success (6)
+[09:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[09:00:28]: Registering secondary shard in Sing lobby
+[09:05:28]: Registering secondary shard in Sing lobby
+[09:10:28]: Registering secondary shard in Sing lobby
+[09:15:28]: Registering secondary shard in Sing lobby
+[09:20:28]: Registering secondary shard in Sing lobby
+[09:25:28]: Registering secondary shard in Sing lobby
+[09:30:05]: [200] Account Communication Success (6)
+[09:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[09:30:28]: Registering secondary shard in Sing lobby
+[09:35:28]: Registering secondary shard in Sing lobby
+[09:40:28]: Registering secondary shard in Sing lobby
+[09:45:28]: Registering secondary shard in Sing lobby
+[09:50:28]: Registering secondary shard in Sing lobby
+[09:55:28]: Registering secondary shard in Sing lobby
+[10:00:05]: [200] Account Communication Success (6)
+[10:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[10:00:28]: Registering secondary shard in Sing lobby
+[10:05:28]: Registering secondary shard in Sing lobby
+[10:10:28]: Registering secondary shard in Sing lobby
+[10:15:28]: Registering secondary shard in Sing lobby
+[10:20:28]: Registering secondary shard in Sing lobby
+[10:25:28]: Registering secondary shard in Sing lobby
+[10:30:05]: [200] Account Communication Success (6)
+[10:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[10:30:28]: Registering secondary shard in Sing lobby
+[10:35:28]: Registering secondary shard in Sing lobby
+[10:40:28]: Registering secondary shard in Sing lobby
+[10:45:28]: Registering secondary shard in Sing lobby
+[10:50:28]: Registering secondary shard in Sing lobby
+[10:55:28]: Registering secondary shard in Sing lobby
+[11:00:05]: [200] Account Communication Success (6)
+[11:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[11:00:28]: Registering secondary shard in Sing lobby
+[11:05:28]: Registering secondary shard in Sing lobby
+[11:10:28]: Registering secondary shard in Sing lobby
+[11:15:28]: Registering secondary shard in Sing lobby
+[11:20:28]: Registering secondary shard in Sing lobby
+[11:25:28]: Registering secondary shard in Sing lobby
+[11:30:05]: [200] Account Communication Success (6)
+[11:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[11:30:28]: Registering secondary shard in Sing lobby
+[11:35:28]: Registering secondary shard in Sing lobby
+[11:40:28]: Registering secondary shard in Sing lobby
+[11:45:28]: Registering secondary shard in Sing lobby
+[11:50:28]: Registering secondary shard in Sing lobby
+[11:55:28]: Registering secondary shard in Sing lobby
+[12:00:05]: [200] Account Communication Success (6)
+[12:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[12:00:28]: Registering secondary shard in Sing lobby
+[12:05:28]: Registering secondary shard in Sing lobby
+[12:10:28]: Registering secondary shard in Sing lobby
+[12:15:28]: Registering secondary shard in Sing lobby
+[12:20:28]: Registering secondary shard in Sing lobby
+[12:25:28]: Registering secondary shard in Sing lobby
+[12:30:05]: [200] Account Communication Success (6)
+[12:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[12:30:28]: Registering secondary shard in Sing lobby
+[12:35:28]: Registering secondary shard in Sing lobby
+[12:40:28]: Registering secondary shard in Sing lobby
+[12:45:28]: Registering secondary shard in Sing lobby
+[12:50:28]: Registering secondary shard in Sing lobby
+[12:55:28]: Registering secondary shard in Sing lobby
+[13:00:05]: [200] Account Communication Success (6)
+[13:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[13:00:28]: Registering secondary shard in Sing lobby
+[13:05:28]: Registering secondary shard in Sing lobby
+[13:10:28]: Registering secondary shard in Sing lobby
+[13:15:28]: Registering secondary shard in Sing lobby
+[13:20:28]: Registering secondary shard in Sing lobby
+[13:25:29]: Registering secondary shard in Sing lobby
+[13:30:05]: [200] Account Communication Success (6)
+[13:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[13:30:29]: Registering secondary shard in Sing lobby
+[13:35:29]: Registering secondary shard in Sing lobby
+[13:40:29]: Registering secondary shard in Sing lobby
+[13:45:29]: Registering secondary shard in Sing lobby
+[13:50:29]: Registering secondary shard in Sing lobby
+[13:55:29]: Registering secondary shard in Sing lobby
+[14:00:05]: [200] Account Communication Success (6)
+[14:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[14:00:29]: Registering secondary shard in Sing lobby
+[14:05:29]: Registering secondary shard in Sing lobby
+[14:10:29]: Registering secondary shard in Sing lobby
+[14:15:29]: Registering secondary shard in Sing lobby
+[14:20:29]: Registering secondary shard in Sing lobby
+[14:25:29]: Registering secondary shard in Sing lobby
+[14:30:05]: [200] Account Communication Success (6)
+[14:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[14:30:29]: Registering secondary shard in Sing lobby
+[14:35:29]: Registering secondary shard in Sing lobby
+[14:40:29]: Registering secondary shard in Sing lobby
+[14:45:29]: Registering secondary shard in Sing lobby
+[14:50:29]: Registering secondary shard in Sing lobby
+[14:55:29]: Registering secondary shard in Sing lobby
+[15:00:05]: [200] Account Communication Success (6)
+[15:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[15:00:29]: Registering secondary shard in Sing lobby
+[15:05:29]: Registering secondary shard in Sing lobby
+[15:10:29]: Registering secondary shard in Sing lobby
+[15:15:29]: Registering secondary shard in Sing lobby
+[15:20:29]: Registering secondary shard in Sing lobby
+[15:25:29]: Registering secondary shard in Sing lobby
+[15:30:05]: [200] Account Communication Success (6)
+[15:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[15:30:29]: Registering secondary shard in Sing lobby
+[15:35:29]: Registering secondary shard in Sing lobby
+[15:40:29]: Registering secondary shard in Sing lobby
+[15:45:29]: Registering secondary shard in Sing lobby
+[15:50:29]: Registering secondary shard in Sing lobby
+[15:55:29]: Registering secondary shard in Sing lobby
+[16:00:05]: [200] Account Communication Success (6)
+[16:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[16:00:29]: Registering secondary shard in Sing lobby
+[16:05:29]: Registering secondary shard in Sing lobby
+[16:10:18]: Sim unpaused
+[16:10:29]: Registering secondary shard in Sing lobby
+[16:14:06]: Available disk space for save files: 106758 MB
+[16:14:06]: Missing reference:	104724 - molehill	->	112396	nil	
+[16:14:06]: Missing reference:	104730 - molehill	->	112400	nil	
+[16:14:06]: Missing reference:	104768 - molehill	->	112408	nil	
+[16:14:06]: Missing reference:	104775 - molehill	->	112414	nil	
+[16:14:06]: Missing reference:	104765 - molehill	->	112442	nil	
+[16:14:06]: Serializing world: session/42EE12C8A7EDCBA0/0000000664
+[16:14:06]: Truncating to snapshot #664...
+[16:14:06]:  - session/42EE12C8A7EDCBA0/0000000658
+[16:14:06]:  - session/42EE12C8A7EDCBA0/A7NBKUSAKCQK/0000000658
+[16:14:06]:  - session/42EE12C8A7EDCBA0/A7NSJKAGFPFN/0000000658
+[16:14:06]:  - session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000658
+[16:14:06]:    4 file(s) removed
+[16:15:29]: Registering secondary shard in Sing lobby
+[16:17:52]: [Shard] #1 -> session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000665
+[16:17:52]: [Shard] Received migration #1 data for (KU_SpqLc26E)
+[16:18:23]: [P2P] Session request for '76561198869807399'
+[16:18:28]: [P2P] Create session: 33.165.245.198|1 '76561198869807399'
+[16:18:28]: [P2P] Received from 33.165.245.198|1 '76561198869807399'
+[16:18:28]: [P2P] Sent to 33.165.245.198|1 '76561198869807399'
+[16:18:51]: [P2P] Received from 33.165.245.198|1 '76561198869807399'
+[16:18:51]: [P2P] Sent to 33.165.245.198|1 '76561198869807399'
+[16:18:52]: New incoming connection 33.165.245.198|1 <951514300150027841>
+[16:18:52]: Client connected from 33.165.245.198|1 <951514300150027841>
+[16:18:52]: ValidateGameSessionToken pgs-usc^KU_SpqLc26E^DontStarveTogether^Qn3UDLZxwQx/GCbhJl6duVCaHV4JWeEBTeTXqQf4ZEc= for <951514300150027841>
+[16:18:52]: Client authenticated: (KU_SpqLc26E) zuzu sandy
+[16:18:53]: [Steam] SendUserConnectAndAuthenticate for '76561198869807399'
+[16:18:53]: [Steam] Authenticated client '76561198869807399'
+[16:18:53]: [Shard] Completed incoming migration #1 for (KU_SpqLc26E)
+[16:19:15]: Resuming user: session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000665
+[16:19:15]: Player will spawn close to portal #10	
+[16:19:15]: Spawning player at: [Load] (521.79, 0.00, -476.69)	
+[16:19:23]: Activating portal[10] to 1	
+[16:19:23]: Serializing user: session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000665
+[16:19:23]: [Shard] Migration request: (KU_SpqLc26E) to [SHDMASTER](1)
+[16:19:23]: [Shard] #2 <- session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000665
+[16:19:23]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[16:19:23]: Ignored request to resume during migration
+[16:19:24]: [Steam] SendUserDisconnect for '76561198869807399'
+[16:20:29]: Registering secondary shard in Sing lobby
+[16:22:07]: Available disk space for save files: 106755 MB
+[16:22:07]: Missing reference:	104724 - molehill	->	112396	nil	
+[16:22:07]: Missing reference:	104730 - molehill	->	112400	nil	
+[16:22:07]: Missing reference:	104768 - molehill	->	112408	nil	
+[16:22:07]: Missing reference:	104775 - molehill	->	112414	nil	
+[16:22:07]: Missing reference:	104765 - molehill	->	112442	nil	
+[16:22:07]: Serializing world: session/42EE12C8A7EDCBA0/0000000665
+[16:22:07]: Truncating to snapshot #665...
+[16:22:07]:  - session/42EE12C8A7EDCBA0/0000000659
+[16:22:07]:  - session/42EE12C8A7EDCBA0/A7NBKUSAKCQK/0000000659
+[16:22:07]:  - session/42EE12C8A7EDCBA0/A7NSJKAGFPFN/0000000659
+[16:22:07]:  - session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000659
+[16:22:07]:    4 file(s) removed
+[16:25:29]: Registering secondary shard in Sing lobby
+[16:29:32]: [P2P] Session timed out for '76561198869807399'
+[16:29:32]: [P2P] Remove session: 33.165.245.198|1 '76561198869807399'
+[16:30:05]: [200] Account Communication Success (6)
+[16:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[16:30:07]: Available disk space for save files: 106752 MB
+[16:30:08]: Missing reference:	104724 - molehill	->	112396	nil	
+[16:30:08]: Missing reference:	104730 - molehill	->	112400	nil	
+[16:30:08]: Missing reference:	104768 - molehill	->	112408	nil	
+[16:30:08]: Missing reference:	104775 - molehill	->	112414	nil	
+[16:30:08]: Missing reference:	104765 - molehill	->	112442	nil	
+[16:30:08]: Serializing world: session/42EE12C8A7EDCBA0/0000000666
+[16:30:08]: Truncating to snapshot #666...
+[16:30:08]:  - session/42EE12C8A7EDCBA0/0000000660
+[16:30:08]:  - session/42EE12C8A7EDCBA0/A7NBKUSAKCQK/0000000660
+[16:30:08]:  - session/42EE12C8A7EDCBA0/A7NSJKAGFPFN/0000000660
+[16:30:08]:  - session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000660
+[16:30:08]:    4 file(s) removed
+[16:30:29]: Registering secondary shard in Sing lobby
+[16:35:29]: Registering secondary shard in Sing lobby
+[16:38:08]: Available disk space for save files: 106748 MB
+[16:38:08]: Missing reference:	104724 - molehill	->	112396	nil	
+[16:38:08]: Missing reference:	104730 - molehill	->	112400	nil	
+[16:38:08]: Missing reference:	104768 - molehill	->	112408	nil	
+[16:38:08]: Missing reference:	104775 - molehill	->	112414	nil	
+[16:38:08]: Missing reference:	104765 - molehill	->	112442	nil	
+[16:38:09]: Serializing world: session/42EE12C8A7EDCBA0/0000000667
+[16:38:09]: Truncating to snapshot #667...
+[16:38:09]:  - session/42EE12C8A7EDCBA0/0000000661
+[16:38:09]:  - session/42EE12C8A7EDCBA0/A7NBKUSAKCQK/0000000661
+[16:38:09]:  - session/42EE12C8A7EDCBA0/A7NSJKAGFPFN/0000000661
+[16:38:09]:    3 file(s) removed
+[16:40:29]: Registering secondary shard in Sing lobby
+[16:43:54]: [Shard] #3 -> session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000668
+[16:43:54]: [Shard] Received migration #3 data for (KU_3_YqzVGF)
+[16:43:57]: [P2P] Session request for '76561198088240120'
+[16:44:01]: [P2P] Create session: 33.165.245.199|1 '76561198088240120'
+[16:44:01]: [P2P] Received from 33.165.245.199|1 '76561198088240120'
+[16:44:01]: [P2P] Sent to 33.165.245.199|1 '76561198088240120'
+[16:44:02]: New incoming connection 33.165.245.199|1 <5444594003761139627>
+[16:44:02]: Client connected from 33.165.245.199|1 <5444594003761139627>
+[16:44:02]: ValidateGameSessionToken pgs-usc^KU_3_YqzVGF^DontStarveTogether^NJmy9P9NOmlHLyogWiOvEqfx2cB+tQUVqKzqXRHb4L8= for <5444594003761139627>
+[16:44:03]: Client authenticated: (KU_3_YqzVGF) wayne930242
+[16:44:03]: [Steam] Authenticated host '76561198088240120'
+[16:44:03]: [Shard] Completed incoming migration #3 for (KU_3_YqzVGF)
+[16:44:14]: Resuming user: session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000668
+[16:44:14]: Player will spawn close to portal #7	
+[16:44:14]: Spawning player at: [Load] (48.91, 0.00, -578.39)	
+[16:45:29]: Registering secondary shard in Sing lobby
+[16:46:09]: Available disk space for save files: 106744 MB
+[16:46:09]: Serializing user: session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000668
+[16:46:09]: Missing reference:	104724 - molehill	->	112396	nil	
+[16:46:09]: Missing reference:	104730 - molehill	->	112400	nil	
+[16:46:09]: Missing reference:	104768 - molehill	->	112408	nil	
+[16:46:09]: Missing reference:	104775 - molehill	->	112414	nil	
+[16:46:09]: Missing reference:	104765 - molehill	->	112442	nil	
+[16:46:09]: Serializing world: session/42EE12C8A7EDCBA0/0000000668
+[16:50:29]: Registering secondary shard in Sing lobby
+[16:54:09]: Available disk space for save files: 106738 MB
+[16:54:10]: Serializing user: session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000669
+[16:54:10]: Missing reference:	104724 - molehill	->	112396	nil	
+[16:54:10]: Missing reference:	104730 - molehill	->	112400	nil	
+[16:54:10]: Missing reference:	104768 - molehill	->	112408	nil	
+[16:54:10]: Missing reference:	104775 - molehill	->	112414	nil	
+[16:54:10]: Missing reference:	104765 - molehill	->	112442	nil	
+[16:54:10]: Serializing world: session/42EE12C8A7EDCBA0/0000000669
+[16:55:21]: Could not find anim [dismount] in bank [wilson]
+[16:55:29]: Registering secondary shard in Sing lobby
+[16:57:07]: Could not find anim [dismount] in bank [wilson]
+[16:57:08]: Activating portal[7] to 1	
+[16:57:08]: Serializing user: session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000670
+[16:57:08]: [Shard] Migration request: (KU_3_YqzVGF) to [SHDMASTER](1)
+[16:57:08]: [Shard] #4 <- session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000670
+[16:57:09]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[16:57:09]: [Steam] SendUserDisconnect for '76561198088240120'
+[17:00:05]: [200] Account Communication Success (6)
+[17:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[17:00:29]: Registering secondary shard in Sing lobby
+[17:02:10]: Available disk space for save files: 106731 MB
+[17:02:10]: Missing reference:	104724 - molehill	->	112396	nil	
+[17:02:10]: Missing reference:	104730 - molehill	->	112400	nil	
+[17:02:10]: Missing reference:	104768 - molehill	->	112408	nil	
+[17:02:10]: Missing reference:	104775 - molehill	->	112414	nil	
+[17:02:10]: Missing reference:	104765 - molehill	->	112442	nil	
+[17:02:11]: Serializing world: session/42EE12C8A7EDCBA0/0000000670
+[17:02:11]: Truncating to snapshot #670...
+[17:02:11]:  - session/42EE12C8A7EDCBA0/0000000662
+[17:02:11]:  - session/42EE12C8A7EDCBA0/0000000664
+[17:02:11]:  - session/42EE12C8A7EDCBA0/0000000663
+[17:02:11]:  - session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000091
+[17:02:11]:    4 file(s) removed
+[17:05:29]: Registering secondary shard in Sing lobby
+[17:07:11]: [P2P] Session timed out for '76561198088240120'
+[17:07:11]: [P2P] Remove session: 33.165.245.199|1 '76561198088240120'
+[17:10:11]: Available disk space for save files: 106733 MB
+[17:10:11]: Missing reference:	104724 - molehill	->	112396	nil	
+[17:10:11]: Missing reference:	104730 - molehill	->	112400	nil	
+[17:10:11]: Missing reference:	104768 - molehill	->	112408	nil	
+[17:10:11]: Missing reference:	104775 - molehill	->	112414	nil	
+[17:10:11]: Missing reference:	104765 - molehill	->	112442	nil	
+[17:10:11]: Serializing world: session/42EE12C8A7EDCBA0/0000000671
+[17:10:11]: Truncating to snapshot #671...
+[17:10:11]:  - session/42EE12C8A7EDCBA0/0000000665
+[17:10:11]:    1 file(s) removed
+[17:10:29]: Registering secondary shard in Sing lobby
+[17:15:29]: Registering secondary shard in Sing lobby
+[17:16:19]: [Shard] #5 -> session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000672
+[17:16:19]: [Shard] Received migration #5 data for (KU_SpqLc26E)
+[17:16:31]: [P2P] Create session: 33.165.245.200|1 '76561198869807399'
+[17:16:31]: [P2P] Received from 33.165.245.200|1 '76561198869807399'
+[17:16:31]: [P2P] Sent to 33.165.245.200|1 '76561198869807399'
+[17:16:51]: [P2P] Received from 33.165.245.200|1 '76561198869807399'
+[17:16:51]: [P2P] Sent to 33.165.245.200|1 '76561198869807399'
+[17:16:51]: New incoming connection 33.165.245.200|1 <7121161528643235619>
+[17:16:51]: Client connected from 33.165.245.200|1 <7121161528643235619>
+[17:16:51]: ValidateGameSessionToken pgs-usc^KU_SpqLc26E^DontStarveTogether^rbuTD6MeeZXa3LttBZCpOEpOCMs/TcTc9EtAoOJbq2I= for <7121161528643235619>
+[17:16:52]: Client authenticated: (KU_SpqLc26E) zuzu sandy
+[17:16:52]: [Steam] SendUserConnectAndAuthenticate for '76561198869807399'
+[17:16:52]: [Steam] Authenticated client '76561198869807399'
+[17:16:52]: [Shard] Completed incoming migration #5 for (KU_SpqLc26E)
+[17:17:06]: Resuming user: session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000672
+[17:17:06]: Player will spawn close to portal #7	
+[17:17:06]: Spawning player at: [Load] (48.27, 0.00, -578.70)	
+[17:18:12]: Available disk space for save files: 106729 MB
+[17:18:12]: Serializing user: session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000672
+[17:18:12]: Missing reference:	104724 - molehill	->	112396	nil	
+[17:18:12]: Missing reference:	104730 - molehill	->	112400	nil	
+[17:18:12]: Missing reference:	104768 - molehill	->	112408	nil	
+[17:18:12]: Missing reference:	104775 - molehill	->	112414	nil	
+[17:18:12]: Missing reference:	104765 - molehill	->	112442	nil	
+[17:18:12]: Serializing world: session/42EE12C8A7EDCBA0/0000000672
+[17:20:29]: Registering secondary shard in Sing lobby
+[17:25:29]: Registering secondary shard in Sing lobby
+[17:26:12]: Available disk space for save files: 106722 MB
+[17:26:13]: Serializing user: session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000673
+[17:26:13]: Missing reference:	104724 - molehill	->	112396	nil	
+[17:26:13]: Missing reference:	104730 - molehill	->	112400	nil	
+[17:26:13]: Missing reference:	104768 - molehill	->	112408	nil	
+[17:26:13]: Missing reference:	104775 - molehill	->	112414	nil	
+[17:26:13]: Missing reference:	104765 - molehill	->	112442	nil	
+[17:26:13]: Serializing world: session/42EE12C8A7EDCBA0/0000000673
+[17:29:19]: Activating portal[7] to 1	
+[17:29:19]: Serializing user: session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000674
+[17:29:19]: [Shard] Migration request: (KU_SpqLc26E) to [SHDMASTER](1)
+[17:29:19]: [Shard] #6 <- session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000674
+[17:29:19]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[17:29:19]: [Steam] SendUserDisconnect for '76561198869807399'
+[17:30:05]: [200] Account Communication Success (6)
+[17:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[17:30:29]: Registering secondary shard in Sing lobby
+[17:34:13]: Available disk space for save files: 106716 MB
+[17:34:13]: Missing reference:	104724 - molehill	->	112396	nil	
+[17:34:13]: Missing reference:	104730 - molehill	->	112400	nil	
+[17:34:13]: Missing reference:	104768 - molehill	->	112408	nil	
+[17:34:13]: Missing reference:	104775 - molehill	->	112414	nil	
+[17:34:13]: Missing reference:	104765 - molehill	->	112442	nil	
+[17:34:13]: Serializing world: session/42EE12C8A7EDCBA0/0000000674
+[17:34:13]: Truncating to snapshot #674...
+[17:34:13]:  - session/42EE12C8A7EDCBA0/0000000668
+[17:34:13]:  - session/42EE12C8A7EDCBA0/0000000666
+[17:34:13]:  - session/42EE12C8A7EDCBA0/0000000667
+[17:34:13]:  - session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000668
+[17:34:13]:  - session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000661
+[17:34:13]:    5 file(s) removed
+[17:35:29]: Registering secondary shard in Sing lobby
+[17:39:27]: [P2P] Session timed out for '76561198869807399'
+[17:39:27]: [P2P] Remove session: 33.165.245.200|1 '76561198869807399'
+[17:40:29]: Registering secondary shard in Sing lobby
+[17:42:14]: Available disk space for save files: 106718 MB
+[17:42:14]: Missing reference:	104724 - molehill	->	112396	nil	
+[17:42:14]: Missing reference:	104730 - molehill	->	112400	nil	
+[17:42:14]: Missing reference:	104768 - molehill	->	112408	nil	
+[17:42:14]: Missing reference:	104775 - molehill	->	112414	nil	
+[17:42:14]: Missing reference:	104765 - molehill	->	112442	nil	
+[17:42:14]: Serializing world: session/42EE12C8A7EDCBA0/0000000675
+[17:42:14]: Truncating to snapshot #675...
+[17:42:14]:  - session/42EE12C8A7EDCBA0/0000000669
+[17:42:14]:  - session/42EE12C8A7EDCBA0/A7GFV2QFBT0F/0000000669
+[17:42:14]:    2 file(s) removed
+[17:45:29]: Registering secondary shard in Sing lobby
+[17:50:14]: Available disk space for save files: 106714 MB
+[17:50:15]: Missing reference:	104724 - molehill	->	112396	nil	
+[17:50:15]: Missing reference:	104730 - molehill	->	112400	nil	
+[17:50:15]: Missing reference:	104768 - molehill	->	112408	nil	
+[17:50:15]: Missing reference:	104775 - molehill	->	112414	nil	
+[17:50:15]: Missing reference:	104765 - molehill	->	112442	nil	
+[17:50:15]: Serializing world: session/42EE12C8A7EDCBA0/0000000676
+[17:50:15]: Truncating to snapshot #676...
+[17:50:15]:  - session/42EE12C8A7EDCBA0/0000000670
+[17:50:15]:    1 file(s) removed
+[17:50:29]: Registering secondary shard in Sing lobby
+[17:51:43]: World 1 is now disconnected	
+[17:51:43]: Validating portal[7] <-> 1[7] (inactive)	
+[17:51:43]: Validating portal[3] <-> 1[3] (inactive)	
+[17:51:43]: Validating portal[8] <-> 1[8] (inactive)	
+[17:51:43]: Validating portal[1] <-> 1[1] (inactive)	
+[17:51:43]: Validating portal[9] <-> 1[9] (inactive)	
+[17:51:43]: Validating portal[6] <-> 1[6] (inactive)	
+[17:51:43]: Validating portal[5] <-> 1[5] (inactive)	
+[17:51:43]: Validating portal[4] <-> 1[4] (inactive)	
+[17:51:43]: Validating portal[10] <-> 1[10] (inactive)	
+[17:51:43]: Validating portal[2] <-> 1[2] (inactive)	
+[17:51:43]: Sim paused
+[17:52:06]: Synchronizing backward to master snapshot 676	
+[17:52:06]: World 1 is now connected	
+[17:52:06]: Validating portal[7] <-> 1[7] (active)	
+[17:52:06]: Validating portal[3] <-> 1[3] (active)	
+[17:52:06]: Validating portal[8] <-> 1[8] (active)	
+[17:52:06]: Validating portal[1] <-> 1[1] (active)	
+[17:52:06]: Validating portal[9] <-> 1[9] (active)	
+[17:52:06]: Validating portal[6] <-> 1[6] (active)	
+[17:52:06]: Validating portal[5] <-> 1[5] (active)	
+[17:52:06]: Validating portal[4] <-> 1[4] (active)	
+[17:52:06]: Validating portal[10] <-> 1[10] (active)	
+[17:52:06]: Validating portal[2] <-> 1[2] (active)	
+[17:52:06]: Sim unpaused
+[17:52:06]: Collecting garbage...
+[17:52:06]: lua_gc took 0.26 seconds
+[17:52:06]: ~ShardLuaProxy()
+[17:52:06]: ~cEventLeaderboardProxy()
+[17:52:06]: ~ItemServerLuaProxy()
+[17:52:06]: ~InventoryLuaProxy()
+[17:52:06]: ~NetworkLuaProxy()
+[17:52:06]: ~SimLuaProxy()
+[17:52:07]: lua_close took 0.57 seconds
+[17:52:07]: ReleaseAll
+[17:52:07]: ReleaseAll Finished
+[17:52:07]: cGame::StartPlaying
+[17:52:07]: AppVersion::GetArchitecture() x32
+[17:52:07]: LOADING LUA
+[17:52:07]: DoLuaFile scripts/main.lua
+[17:52:07]: DoLuaFile loading buffer scripts/main.lua
+[17:52:07]:   taskgrouplist:	default	Together	
+[17:52:07]:   taskgrouplist:	classic	Classic	
+[17:52:07]:   taskgrouplist:	cave_default	Underground	
+[17:52:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[17:52:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[17:52:07]: running main.lua
+	
+[17:52:07]: loaded modindex	
+[17:52:07]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[17:52:07]: SUCCESS: Loaded modoverrides.lua	
+[17:52:07]: modoverrides.lua enabling workshop-1207269058	
+[17:52:07]: modoverrides.lua enabling workshop-2477889104	
+[17:52:07]: modoverrides.lua enabling workshop-1111658995	
+[17:52:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[17:52:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[17:52:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[17:52:07]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[17:52:07]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[17:52:07]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[17:52:07]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[17:52:07]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[17:52:07]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.2.0	
+[17:52:07]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[17:52:07]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[17:52:07]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[17:52:07]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[17:52:07]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[17:52:07]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[17:52:07]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[17:52:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[17:52:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[17:52:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[17:52:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[17:52:07]: LOADING LUA SUCCESS
+[17:52:07]: Registering Server mod namespace "workshop-1207269058"
+[17:52:07]: Registering Server mod namespace "workshop-1111658995"
+[17:52:07]: PlayerDeaths could not load morgue	
+[17:52:07]: PlayerHistory could not load player_history	
+[17:52:07]: ServerPreferences could not load server_preferences	
+[17:52:07]: bloom_enabled	true	
+[17:52:07]: OnFilesLoaded()	
+[17:52:07]: OnUpdatePurchaseStateComplete	
+[17:52:07]: Loading world: session/42EE12C8A7EDCBA0/0000000676	
+[17:52:08]: Save file is at version 5.08	
+[17:52:08]: Klump load on boot started.	
+[17:52:08]: Klump files loaded: 	0	
+[17:52:08]: 	Unload characters	
+[17:52:08]: 	BE assets already loaded	
+[17:52:08]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[17:52:08]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[17:52:08]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[17:52:08]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[17:52:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[17:52:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[17:52:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[17:52:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[17:52:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[17:52:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[17:52:08]: Begin Session: 42EE12C8A7EDCBA0
+[17:52:08]: Stomping previously assigned session identifier, two loads issued.
+[17:52:08]: saving to server_temp/server_save	
+[17:52:08]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[17:52:08]: Loading 18 new character(s)	
+[17:52:09]: Total 18 character(s) loaded	
+[17:52:13]: Loading Nav Grid	
+[17:52:13]: World generated on build 466644 with save version: 5.065, using seed: 1622907742	
+[17:52:13]: setting 	summerlength	15	
+[17:52:13]: setting 	cavemoonphase	quarter	
+[17:52:13]: setting 	iscavefullmoon	false	
+[17:52:13]: setting 	isnightmaredawn	false	
+[17:52:13]: setting 	elapseddaysinseason	15	
+[17:52:13]: setting 	isfullmoon	false	
+[17:52:13]: setting 	moisture	5275.7612304688	
+[17:52:13]: setting 	cavephase	day	
+[17:52:13]: setting 	iscavewaxingmoon	true	
+[17:52:13]: setting 	isnightmarewild	true	
+[17:52:13]: setting 	nightmaretimeinphase	0.38013561710962	
+[17:52:13]: setting 	precipitationrate	0	
+[17:52:13]: setting 	iswet	false	
+[17:52:13]: setting 	isnewmoon	false	
+[17:52:13]: setting 	precipitation	none	
+[17:52:13]: setting 	israining	false	
+[17:52:13]: setting 	isnightmarewarn	false	
+[17:52:13]: setting 	iswinter	false	
+[17:52:13]: setting 	season	autumn	
+[17:52:13]: setting 	remainingdaysinseason	5	
+[17:52:13]: setting 	winterlength	15	
+[17:52:13]: setting 	iscaveday	true	
+[17:52:13]: setting 	moistureceil	7866.1977539062	
+[17:52:13]: setting 	isday	false	
+[17:52:13]: setting 	springlength	20	
+[17:52:13]: setting 	wetness	0	
+[17:52:13]: setting 	iscavedusk	false	
+[17:52:13]: setting 	isalterawake	false	
+[17:52:13]: setting 	isnightmarecalm	false	
+[17:52:13]: setting 	isnight	true	
+[17:52:13]: setting 	isdusk	false	
+[17:52:13]: setting 	isspring	false	
+[17:52:13]: setting 	isautumn	true	
+[17:52:13]: setting 	issnowing	false	
+[17:52:13]: setting 	iswaxingmoon	true	
+[17:52:13]: setting 	phase	night	
+[17:52:13]: setting 	snowlevel	0	
+[17:52:13]: setting 	issnowcovered	false	
+[17:52:13]: setting 	autumnlength	20	
+[17:52:13]: setting 	pop	0.65802374957458	
+[17:52:13]: setting 	nightmaretime	507.02034256644	
+[17:52:13]: setting 	seasonprogress	0.75	
+[17:52:13]: setting 	moonphase	new	
+[17:52:13]: setting 	nightmarephase	wild	
+[17:52:13]: setting 	cycles	641	
+[17:52:13]: setting 	timeinphase	0.0041798273722331	
+[17:52:13]: setting 	iscavenight	false	
+[17:52:13]: setting 	iscavenewmoon	false	
+[17:52:13]: setting 	issummer	false	
+[17:52:13]: setting 	temperature	10.538083613213	
+[17:52:13]: setting 	time	0.0020899136861166	
+[17:52:16]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:17]: Could not find anim build FROMNUM
+[17:52:19]: SWITCHING 	false	
+[17:52:19]: Reconstructing topology	
+[17:52:19]: 	...Sorting points	
+[17:52:19]: 	...Sorting edges	
+[17:52:19]: 	...Connecting nodes	
+[17:52:19]: 	...Validating connections	
+[17:52:19]: 	...Housekeeping	
+[17:52:19]: 	...Done!	
+[17:52:19]: 1 uploads added to server. From server_temp
+[17:52:19]: World 1 is now connected	
+[17:52:19]: Telling Client our new session identifier: 42EE12C8A7EDCBA0
+[17:52:19]: Check for write access: TRUE
+[17:52:19]: Check for read access: TRUE
+[17:52:19]: Available disk space for save files: 106758 MB
+[17:52:19]: ModIndex: Load sequence finished successfully.	
+[17:52:20]: Reset() returning
+[17:52:21]: Validating portal[4] <-> 1[4] (active)	
+[17:52:21]: Validating portal[8] <-> 1[8] (active)	
+[17:52:21]: Validating portal[2] <-> 1[2] (active)	
+[17:52:21]: Validating portal[6] <-> 1[6] (active)	
+[17:52:21]: Validating portal[3] <-> 1[3] (active)	
+[17:52:21]: Validating portal[7] <-> 1[7] (active)	
+[17:52:21]: Validating portal[9] <-> 1[9] (active)	
+[17:52:21]: Validating portal[10] <-> 1[10] (active)	
+[17:52:21]: Validating portal[1] <-> 1[1] (active)	
+[17:52:21]: Validating portal[5] <-> 1[5] (active)	
+[17:53:28]: World 1 is now disconnected	
+[17:53:28]: Validating portal[4] <-> 1[4] (inactive)	
+[17:53:28]: Validating portal[8] <-> 1[8] (inactive)	
+[17:53:28]: Validating portal[2] <-> 1[2] (inactive)	
+[17:53:28]: Validating portal[6] <-> 1[6] (inactive)	
+[17:53:28]: Validating portal[3] <-> 1[3] (inactive)	
+[17:53:28]: Validating portal[7] <-> 1[7] (inactive)	
+[17:53:28]: Validating portal[9] <-> 1[9] (inactive)	
+[17:53:28]: Validating portal[10] <-> 1[10] (inactive)	
+[17:53:28]: Validating portal[1] <-> 1[1] (inactive)	
+[17:53:28]: Validating portal[5] <-> 1[5] (inactive)	
+[17:53:28]: Sim paused
+[17:53:51]: Synchronizing backward to master snapshot 676	
+[17:53:51]: World 1 is now connected	
+[17:53:51]: Validating portal[4] <-> 1[4] (active)	
+[17:53:51]: Validating portal[8] <-> 1[8] (active)	
+[17:53:51]: Validating portal[2] <-> 1[2] (active)	
+[17:53:51]: Validating portal[6] <-> 1[6] (active)	
+[17:53:51]: Validating portal[3] <-> 1[3] (active)	
+[17:53:51]: Validating portal[7] <-> 1[7] (active)	
+[17:53:51]: Validating portal[9] <-> 1[9] (active)	
+[17:53:51]: Validating portal[10] <-> 1[10] (active)	
+[17:53:51]: Validating portal[1] <-> 1[1] (active)	
+[17:53:51]: Validating portal[5] <-> 1[5] (active)	
+[17:53:51]: Sim unpaused
+[17:53:51]: Collecting garbage...
+[17:53:52]: lua_gc took 0.29 seconds
+[17:53:52]: ~ShardLuaProxy()
+[17:53:52]: ~cEventLeaderboardProxy()
+[17:53:52]: ~ItemServerLuaProxy()
+[17:53:52]: ~InventoryLuaProxy()
+[17:53:52]: ~NetworkLuaProxy()
+[17:53:52]: ~SimLuaProxy()
+[17:53:52]: lua_close took 0.54 seconds
+[17:53:52]: ReleaseAll
+[17:53:52]: ReleaseAll Finished
+[17:53:52]: cGame::StartPlaying
+[17:53:52]: AppVersion::GetArchitecture() x32
+[17:53:52]: LOADING LUA
+[17:53:52]: DoLuaFile scripts/main.lua
+[17:53:52]: DoLuaFile loading buffer scripts/main.lua
+[17:53:53]:   taskgrouplist:	default	Together	
+[17:53:53]:   taskgrouplist:	classic	Classic	
+[17:53:53]:   taskgrouplist:	cave_default	Underground	
+[17:53:53]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[17:53:53]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[17:53:53]: running main.lua
+	
+[17:53:53]: loaded modindex	
+[17:53:53]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[17:53:53]: SUCCESS: Loaded modoverrides.lua	
+[17:53:53]: modoverrides.lua enabling workshop-1207269058	
+[17:53:53]: modoverrides.lua enabling workshop-2477889104	
+[17:53:53]: modoverrides.lua enabling workshop-1111658995	
+[17:53:53]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1111658995	
+[17:53:53]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[17:53:53]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[17:53:53]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[17:53:53]: Loading mod: workshop-1111658995 (Show Bundle) Version:2.5	
+[17:53:53]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[17:53:53]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[17:53:53]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[17:53:53]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.2.0	
+[17:53:53]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[17:53:53]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[17:53:53]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[17:53:53]: modimport: ../mods/workshop-1111658995/scripts/util.lua	
+[17:53:53]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[17:53:53]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[17:53:53]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[17:53:53]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[17:53:53]: LOADING LUA SUCCESS
+[17:53:53]: Registering Server mod namespace "workshop-1207269058"
+[17:53:53]: Registering Server mod namespace "workshop-1111658995"
+[17:53:53]: PlayerDeaths could not load morgue	
+[17:53:53]: PlayerHistory could not load player_history	
+[17:53:53]: ServerPreferences could not load server_preferences	
+[17:53:53]: bloom_enabled	true	
+[17:53:53]: OnFilesLoaded()	
+[17:53:53]: OnUpdatePurchaseStateComplete	
+[17:53:53]: Loading world: session/42EE12C8A7EDCBA0/0000000676	
+[17:53:53]: Save file is at version 5.08	
+[17:53:53]: Klump load on boot started.	
+[17:53:53]: Klump files loaded: 	0	
+[17:53:53]: 	Unload characters	
+[17:53:53]: 	BE assets already loaded	
+[17:53:53]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[17:53:53]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[17:53:53]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[17:53:53]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[17:53:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[17:53:53]: Begin Session: 42EE12C8A7EDCBA0
+[17:53:53]: Stomping previously assigned session identifier, two loads issued.
+[17:53:53]: saving to server_temp/server_save	
+[17:53:54]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[17:53:54]: Loading 18 new character(s)	
+[17:53:54]: Total 18 character(s) loaded	
+[17:53:58]: Loading Nav Grid	
+[17:53:58]: World generated on build 466644 with save version: 5.065, using seed: 1622907742	
+[17:53:58]: setting 	summerlength	15	
+[17:53:58]: setting 	cavemoonphase	quarter	
+[17:53:58]: setting 	iscavefullmoon	false	
+[17:53:58]: setting 	isnightmaredawn	false	
+[17:53:58]: setting 	elapseddaysinseason	15	
+[17:53:58]: setting 	isfullmoon	false	
+[17:53:58]: setting 	moisture	5275.7612304688	
+[17:53:58]: setting 	cavephase	day	
+[17:53:58]: setting 	iscavewaxingmoon	true	
+[17:53:58]: setting 	isnightmarewild	true	
+[17:53:58]: setting 	nightmaretimeinphase	0.38013561710962	
+[17:53:58]: setting 	precipitationrate	0	
+[17:53:58]: setting 	iswet	false	
+[17:53:58]: setting 	isnewmoon	false	
+[17:53:58]: setting 	precipitation	none	
+[17:53:58]: setting 	israining	false	
+[17:53:58]: setting 	isnightmarewarn	false	
+[17:53:58]: setting 	iswinter	false	
+[17:53:58]: setting 	season	autumn	
+[17:53:58]: setting 	remainingdaysinseason	5	
+[17:53:58]: setting 	winterlength	15	
+[17:53:58]: setting 	iscaveday	true	
+[17:53:58]: setting 	moistureceil	7866.1977539062	
+[17:53:58]: setting 	isday	false	
+[17:53:58]: setting 	springlength	20	
+[17:53:58]: setting 	wetness	0	
+[17:53:58]: setting 	iscavedusk	false	
+[17:53:58]: setting 	isalterawake	false	
+[17:53:58]: setting 	isnightmarecalm	false	
+[17:53:58]: setting 	isnight	true	
+[17:53:58]: setting 	isdusk	false	
+[17:53:58]: setting 	isspring	false	
+[17:53:58]: setting 	isautumn	true	
+[17:53:58]: setting 	issnowing	false	
+[17:53:58]: setting 	iswaxingmoon	true	
+[17:53:58]: setting 	phase	night	
+[17:53:58]: setting 	snowlevel	0	
+[17:53:58]: setting 	issnowcovered	false	
+[17:53:58]: setting 	autumnlength	20	
+[17:53:58]: setting 	pop	0.65802374957458	
+[17:53:58]: setting 	nightmaretime	507.02034256644	
+[17:53:58]: setting 	seasonprogress	0.75	
+[17:53:58]: setting 	moonphase	new	
+[17:53:58]: setting 	nightmarephase	wild	
+[17:53:58]: setting 	cycles	641	
+[17:53:58]: setting 	timeinphase	0.0041798273722331	
+[17:53:58]: setting 	iscavenight	false	
+[17:53:58]: setting 	iscavenewmoon	false	
+[17:53:58]: setting 	issummer	false	
+[17:53:58]: setting 	temperature	10.538083613213	
+[17:53:58]: setting 	time	0.0020899136861166	
+[17:54:01]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:03]: Could not find anim build FROMNUM
+[17:54:06]: SWITCHING 	false	
+[17:54:06]: Reconstructing topology	
+[17:54:06]: 	...Sorting points	
+[17:54:06]: 	...Sorting edges	
+[17:54:06]: 	...Connecting nodes	
+[17:54:06]: 	...Validating connections	
+[17:54:07]: 	...Housekeeping	
+[17:54:07]: 	...Done!	
+[17:54:07]: 1 uploads added to server. From server_temp
+[17:54:07]: World 1 is now connected	
+[17:54:07]: Telling Client our new session identifier: 42EE12C8A7EDCBA0
+[17:54:07]: Check for write access: TRUE
+[17:54:07]: Check for read access: TRUE
+[17:54:07]: Available disk space for save files: 106758 MB
+[17:54:07]: ModIndex: Load sequence finished successfully.	
+[17:54:07]: Reset() returning
+[17:54:08]: Validating portal[5] <-> 1[5] (active)	
+[17:54:08]: Validating portal[3] <-> 1[3] (active)	
+[17:54:08]: Validating portal[4] <-> 1[4] (active)	
+[17:54:08]: Validating portal[2] <-> 1[2] (active)	
+[17:54:08]: Validating portal[8] <-> 1[8] (active)	
+[17:54:08]: Validating portal[9] <-> 1[9] (active)	
+[17:54:08]: Validating portal[6] <-> 1[6] (active)	
+[17:54:08]: Validating portal[1] <-> 1[1] (active)	
+[17:54:08]: Validating portal[10] <-> 1[10] (active)	
+[17:54:08]: Validating portal[7] <-> 1[7] (active)	
+[17:55:29]: Registering secondary shard in Sing lobby
+[18:00:05]: [200] Account Communication Success (6)
+[18:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[18:00:29]: Registering secondary shard in Sing lobby
+[18:01:59]: Available disk space for save files: 106758 MB
+[18:01:59]: Serializing world: session/42EE12C8A7EDCBA0/0000000677
+[18:01:59]: Truncating to snapshot #677...
+[18:01:59]:  - session/42EE12C8A7EDCBA0/0000000671
+[18:01:59]:  - session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000665
+[18:01:59]:    2 file(s) removed
+[18:05:29]: Registering secondary shard in Sing lobby
+[18:09:59]: Available disk space for save files: 106754 MB
+[18:10:00]: Serializing world: session/42EE12C8A7EDCBA0/0000000678
+[18:10:00]: Truncating to snapshot #678...
+[18:10:00]:  - session/42EE12C8A7EDCBA0/0000000672
+[18:10:00]:  - session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000672
+[18:10:00]:    2 file(s) removed
+[18:10:29]: Registering secondary shard in Sing lobby
+[18:15:29]: Registering secondary shard in Sing lobby
+[18:18:00]: Available disk space for save files: 106751 MB
+[18:18:01]: Serializing world: session/42EE12C8A7EDCBA0/0000000679
+[18:18:01]: Truncating to snapshot #679...
+[18:18:01]:  - session/42EE12C8A7EDCBA0/0000000673
+[18:18:01]:  - session/42EE12C8A7EDCBA0/A7JJ7KAPG8CE/0000000673
+[18:18:01]:    2 file(s) removed
+[18:20:29]: Registering secondary shard in Sing lobby
+[18:25:29]: Registering secondary shard in Sing lobby
+[18:26:01]: Available disk space for save files: 106747 MB
+[18:26:01]: Serializing world: session/42EE12C8A7EDCBA0/0000000680
+[18:26:01]: Truncating to snapshot #680...
+[18:26:01]:  - session/42EE12C8A7EDCBA0/0000000674
+[18:26:01]:    1 file(s) removed
+[18:30:05]: [200] Account Communication Success (6)
+[18:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[18:30:29]: Registering secondary shard in Sing lobby
+[18:34:02]: Available disk space for save files: 106743 MB
+[18:34:02]: Serializing world: session/42EE12C8A7EDCBA0/0000000681
+[18:34:02]: Truncating to snapshot #681...
+[18:34:02]:  - session/42EE12C8A7EDCBA0/0000000675
+[18:34:02]:    1 file(s) removed
+[18:35:29]: Registering secondary shard in Sing lobby
+[18:40:29]: Registering secondary shard in Sing lobby
+[18:42:02]: Available disk space for save files: 106739 MB
+[18:42:03]: Serializing world: session/42EE12C8A7EDCBA0/0000000682
+[18:42:03]: Truncating to snapshot #682...
+[18:42:03]:  - session/42EE12C8A7EDCBA0/0000000676
+[18:42:03]:    1 file(s) removed
+[18:44:28]: Available disk space for save files: 106736 MB
+[18:44:29]: Serializing world: session/42EE12C8A7EDCBA0/0000000683
+[18:44:29]: Truncating to snapshot #683...
+[18:44:29]:  - session/42EE12C8A7EDCBA0/0000000677
+[18:44:29]:    1 file(s) removed
+[18:44:48]: Sim paused
+[18:45:29]: Registering secondary shard in Sing lobby
+[18:50:29]: Registering secondary shard in Sing lobby
+[18:55:29]: Registering secondary shard in Sing lobby
+[19:00:05]: [200] Account Communication Success (6)
+[19:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[19:00:29]: Registering secondary shard in Sing lobby
+[19:05:29]: Registering secondary shard in Sing lobby
+[19:10:29]: Registering secondary shard in Sing lobby
+[19:15:29]: Registering secondary shard in Sing lobby
+[19:20:29]: Registering secondary shard in Sing lobby
+[19:25:29]: Registering secondary shard in Sing lobby
+[19:30:05]: [200] Account Communication Success (6)
+[19:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[19:30:29]: Registering secondary shard in Sing lobby
+[19:35:29]: Registering secondary shard in Sing lobby
+[19:40:29]: Registering secondary shard in Sing lobby
+[19:45:29]: Registering secondary shard in Sing lobby
+[19:50:29]: Registering secondary shard in Sing lobby
+[19:55:29]: Registering secondary shard in Sing lobby
+[20:00:05]: [200] Account Communication Success (6)
+[20:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[20:00:29]: Registering secondary shard in Sing lobby
+[20:05:29]: Registering secondary shard in Sing lobby
+[20:10:29]: Registering secondary shard in Sing lobby
+[20:15:29]: Registering secondary shard in Sing lobby
+[20:20:29]: Registering secondary shard in Sing lobby
+[20:25:29]: Registering secondary shard in Sing lobby
+[20:30:05]: [200] Account Communication Success (6)
+[20:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[20:30:29]: Registering secondary shard in Sing lobby
+[20:35:29]: Registering secondary shard in Sing lobby
+[20:40:29]: Registering secondary shard in Sing lobby
+[20:45:29]: Registering secondary shard in Sing lobby
+[20:50:29]: Registering secondary shard in Sing lobby
+[20:55:29]: Registering secondary shard in Sing lobby
+[21:00:05]: [200] Account Communication Success (6)
+[21:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[21:00:29]: Registering secondary shard in Sing lobby
+[21:05:29]: Registering secondary shard in Sing lobby
+[21:10:29]: Registering secondary shard in Sing lobby
+[21:15:29]: Registering secondary shard in Sing lobby
+[21:20:29]: Registering secondary shard in Sing lobby
+[21:25:29]: Registering secondary shard in Sing lobby
+[21:30:05]: [200] Account Communication Success (6)
+[21:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[21:30:29]: Registering secondary shard in Sing lobby
+[21:35:29]: Registering secondary shard in Sing lobby
+[21:40:29]: Registering secondary shard in Sing lobby
+[21:45:29]: Registering secondary shard in Sing lobby
+[21:50:29]: Registering secondary shard in Sing lobby
+[21:55:29]: Registering secondary shard in Sing lobby
+[22:00:05]: [200] Account Communication Success (6)
+[22:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[22:00:29]: Registering secondary shard in Sing lobby
+[22:05:29]: Registering secondary shard in Sing lobby
+[22:10:29]: Registering secondary shard in Sing lobby
+[22:15:29]: Registering secondary shard in Sing lobby
+[22:20:29]: Registering secondary shard in Sing lobby
+[22:25:29]: Registering secondary shard in Sing lobby
+[22:30:05]: [200] Account Communication Success (6)
+[22:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[22:30:29]: Registering secondary shard in Sing lobby
+[22:35:29]: Registering secondary shard in Sing lobby
+[22:40:29]: Registering secondary shard in Sing lobby
+[22:45:29]: Registering secondary shard in Sing lobby
+[22:50:29]: Registering secondary shard in Sing lobby
+[22:55:29]: Registering secondary shard in Sing lobby
+[23:00:05]: [200] Account Communication Success (6)
+[23:00:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[23:00:29]: Registering secondary shard in Sing lobby
+[23:05:29]: Registering secondary shard in Sing lobby
+[23:10:29]: Registering secondary shard in Sing lobby
+[23:15:29]: Registering secondary shard in Sing lobby
+[23:20:29]: Registering secondary shard in Sing lobby
+[23:25:29]: Registering secondary shard in Sing lobby
+[23:30:05]: [200] Account Communication Success (6)
+[23:30:05]: Received (KU_3_YqzVGF) from TokenPurpose
+[23:30:29]: Registering secondary shard in Sing lobby
+[23:35:29]: Registering secondary shard in Sing lobby
+[23:40:29]: Registering secondary shard in Sing lobby
+[23:45:29]: Registering secondary shard in Sing lobby
+[23:50:30]: Registering secondary shard in Sing lobby
+[23:55:30]: Registering secondary shard in Sing lobby

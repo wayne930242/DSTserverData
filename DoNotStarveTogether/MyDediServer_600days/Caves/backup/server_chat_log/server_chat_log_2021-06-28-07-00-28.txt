@@ -1,0 +1,17 @@
+[00:48:35]: [Join Announcement] wayne930242
+[00:49:02]: [Join Announcement] Ayang
+[00:49:21]: [Leave Announcement] Ayang
+[00:51:31]: [Join Announcement] Ayang
+[01:04:35]: [Leave Announcement] Ayang
+[01:06:04]: [Join Announcement] Ayang
+[01:13:13]: [Skin Announcement] Ayang hand_workgloves_grey_gainsboro
+[01:17:50]: [Leave Announcement] Ayang
+[01:19:28]: [Join Announcement] Ayang
+[01:31:38]: [Leave Announcement] wayne930242
+[01:33:59]: [Join Announcement] wayne930242
+[01:34:21]: [Leave Announcement] Ayang
+[01:46:06]: [Join Announcement] Ayang
+[01:52:16]: [Leave Announcement] Ayang
+[01:54:27]: [Join Announcement] Ayang
+[02:01:45]: [Death Announcement] Ayang was killed by Terrorbeak. He became a spooky ghost!
+[02:03:43]: [Resurrect Announcement] Ayang was resurrected by TMIP 
